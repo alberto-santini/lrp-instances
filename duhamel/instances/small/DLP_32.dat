@@ -1,0 +1,165 @@
+123456791
+Name         = DLP_32.dat
+LowerBound   = UnKnown
+BestKnown    = UnKnown
+Nodes        = 32
+Coords       = Yes
+Arcs         = 94
+Node-Task    = 15
+Nbdepot   =  2
+
+// List of nodes with coordinates
+Node =  1 , X =   2 , Y = -11 , SUCC = 2 , 11 * 
+Node =  2 , X = 202 , Y =   6 , SUCC = 1 , 3 , 13 , 25 * 
+Node =  3 , X = 398 , Y = -15 , SUCC = 2 , 4 , 14 * 
+Node =  4 , X = 498 , Y =  -5 , SUCC = 5 , 15 * 
+Node =  5 , X = 613 , Y =   9 , SUCC = 4 , 6 , 15 * 
+Node =  6 , X = 791 , Y =   4 , SUCC = 5 , 7 , 17 , 18 , 29 * 
+Node =  7 , X = 997 , Y =   3 , SUCC = 6 , 8 , 19 * 
+Node =  8 , X = 1207 , Y =   8 , SUCC = 7 , 9 , 21 , 22 * 
+Node =  9 , X = 1302 , Y =  -9 , SUCC = 8 , 10 , 22 * 
+Node = 10 , X = 1403 , Y = -10 , SUCC = 32 * 
+Node = 11 , X =  -9 , Y =  96 , SUCC = 1 , 12 , 23 * 
+Node = 12 , X = 101 , Y = 102 , SUCC = 1 , 2 , 13 , 24 * 
+Node = 13 , X = 200 , Y = 101 , SUCC = 12 , 24 * 
+Node = 14 , X = 396 , Y = 104 , SUCC = 3 , 15 * 
+Node = 15 , X = 511 , Y =  85 , SUCC = 4 , 14 , 16 , 25 , 26 * 
+Node = 16 , X = 593 , Y = 106 , SUCC = 5 , 15 , 17 , 27 * 
+Node = 17 , X = 702 , Y = 111 , SUCC = 5 , 6 , 16 , 18 , 28 * 
+Node = 18 , X = 798 , Y = 102 , SUCC = 28 * 
+Node = 19 , X = 1006 , Y =  96 , SUCC = 20 , 29 * 
+Node = 20 , X = 1099 , Y = 104 , SUCC = 8 , 19 , 21 , 29 * 
+Node = 21 , X = 1202 , Y =  92 , SUCC = 30 * 
+Node = 22 , X = 1289 , Y =  86 , SUCC = 8 , 9 , 31 , 32 * 
+Node = 23 , X =   3 , Y = 204 , SUCC = 12 , 24 * 
+Node = 24 , X = 199 , Y = 204 , SUCC = 12 , 23 , 25 * 
+Node = 25 , X = 400 , Y = 206 , SUCC = 2 , 14 , 15 , 24 , 26 * 
+Node = 26 , X = 495 , Y = 189 , SUCC = 15 , 27 * 
+Node = 27 , X = 612 , Y = 191 , SUCC = 16 , 17 , 26 , 28 * 
+Node = 28 , X = 800 , Y = 199 , SUCC = 27 , 29 * 
+Node = 29 , X = 1000 , Y = 193 , SUCC = 6 , 19 , 20 , 28 , 30 * 
+Node = 30 , X = 1210 , Y = 190 , SUCC = 31 * 
+Node = 31 , X = 1304 , Y = 192 , SUCC = 22 * 
+Node = 32 , X = 1407 , Y = 213 , SUCC = 22 , 31 * 
+
+// List Of Arcs
+Arc =   1 ,  From =   1 ,  To =   2 ,  Longueur =   204.74 , Duree =    36.85 * 
+Arc =   2 ,  From =   1 ,  To =  11 ,  Longueur =   116.17 , Duree =    20.91 * 
+Arc =   3 ,  From =   2 ,  To =   1 ,  Longueur =   204.74 , Duree =    36.85 * 
+Arc =   4 ,  From =   2 ,  To =   3 ,  Longueur =   197.12 , Duree =    35.48 * 
+Arc =   5 ,  From =   2 ,  To =  13 ,  Longueur =    98.82 , Duree =    17.79 * 
+Arc =   6 ,  From =   2 ,  To =  25 ,  Longueur =   298.32 , Duree =    53.70 * 
+Arc =   7 ,  From =   3 ,  To =   2 ,  Longueur =   197.12 , Duree =    35.48 * 
+Arc =   8 ,  From =   3 ,  To =   4 ,  Longueur =   108.54 , Duree =    19.54 * 
+Arc =   9 ,  From =   3 ,  To =  14 ,  Longueur =   129.73 , Duree =    23.35 * 
+Arc =  10 ,  From =   4 ,  To =   5 ,  Longueur =   118.17 , Duree =    21.27 * 
+Arc =  11 ,  From =   4 ,  To =  15 ,  Longueur =    98.21 , Duree =    17.68 * 
+Arc =  12 ,  From =   5 ,  To =   4 ,  Longueur =   118.17 , Duree =    21.27 * 
+Arc =  13 ,  From =   5 ,  To =   6 ,  Longueur =   186.97 , Duree =    33.66 * 
+Arc =  14 ,  From =   5 ,  To =  15 ,  Longueur =   132.29 , Duree =    23.81 * 
+Arc =  15 ,  From =   6 ,  To =   5 ,  Longueur =   186.97 , Duree =    33.66 * 
+Arc =  16 ,  From =   6 ,  To =   7 ,  Longueur =   224.54 , Duree =    40.42 * 
+Arc =  17 ,  From =   6 ,  To =  17 ,  Longueur =   139.18 , Duree =    25.05 * 
+Arc =  18 ,  From =   6 ,  To =  18 ,  Longueur =   102.18 , Duree =    18.39 * 
+Arc =  19 ,  From =   6 ,  To =  29 ,  Longueur =   290.24 , Duree =    52.24 * 
+Arc =  20 ,  From =   7 ,  To =   6 ,  Longueur =   224.54 , Duree =    40.42 * 
+Arc =  21 ,  From =   7 ,  To =   8 ,  Longueur =   228.96 , Duree =    41.21 * 
+Arc =  22 ,  From =   7 ,  To =  19 ,  Longueur =   101.84 , Duree =    18.33 * 
+Arc =  23 ,  From =   8 ,  To =   7 ,  Longueur =   228.96 , Duree =    41.21 * 
+Arc =  24 ,  From =   8 ,  To =   9 ,  Longueur =    98.44 , Duree =    17.72 * 
+Arc =  25 ,  From =   8 ,  To =  21 ,  Longueur =    84.15 , Duree =    15.15 * 
+Arc =  26 ,  From =   8 ,  To =  22 ,  Longueur =   115.44 , Duree =    20.78 * 
+Arc =  27 ,  From =   9 ,  To =   8 ,  Longueur =    98.44 , Duree =    17.72 * 
+Arc =  28 ,  From =   9 ,  To =  10 ,  Longueur =   111.11 , Duree =    20.00 * 
+Arc =  29 ,  From =   9 ,  To =  22 ,  Longueur =    97.80 , Duree =    17.60 * 
+Arc =  30 ,  From =  10 ,  To =  32 ,  Longueur =   243.11 , Duree =    43.76 * 
+Arc =  31 ,  From =  11 ,  To =   1 ,  Longueur =   116.17 , Duree =    20.91 * 
+Arc =  32 ,  From =  11 ,  To =  12 ,  Longueur =   118.98 , Duree =    21.42 * 
+Arc =  33 ,  From =  11 ,  To =  23 ,  Longueur =   110.84 , Duree =    19.95 * 
+Arc =  34 ,  From =  12 ,  To =   1 ,  Longueur =   165.26 , Duree =    29.75 * 
+Arc =  35 ,  From =  12 ,  To =   2 ,  Longueur =   150.49 , Duree =    27.09 * 
+Arc =  36 ,  From =  12 ,  To =  13 ,  Longueur =    99.01 , Duree =    17.82 * 
+Arc =  37 ,  From =  12 ,  To =  24 ,  Longueur =   141.45 , Duree =    25.46 * 
+Arc =  38 ,  From =  13 ,  To =  12 ,  Longueur =    99.01 , Duree =    17.82 * 
+Arc =  39 ,  From =  13 ,  To =  24 ,  Longueur =   108.16 , Duree =    19.47 * 
+Arc =  40 ,  From =  14 ,  To =   3 ,  Longueur =   129.73 , Duree =    23.35 * 
+Arc =  41 ,  From =  14 ,  To =  15 ,  Longueur =   120.06 , Duree =    21.61 * 
+Arc =  42 ,  From =  15 ,  To =   4 ,  Longueur =    98.21 , Duree =    17.68 * 
+Arc =  43 ,  From =  15 ,  To =  14 ,  Longueur =   120.06 , Duree =    21.61 * 
+Arc =  44 ,  From =  15 ,  To =  16 ,  Longueur =    86.34 , Duree =    15.54 * 
+Arc =  45 ,  From =  15 ,  To =  25 ,  Longueur =   172.41 , Duree =    31.03 * 
+Arc =  46 ,  From =  15 ,  To =  26 ,  Longueur =   109.43 , Duree =    19.70 * 
+Arc =  47 ,  From =  16 ,  To =   5 ,  Longueur =   105.97 , Duree =    19.08 * 
+Arc =  48 ,  From =  16 ,  To =  15 ,  Longueur =    86.34 , Duree =    15.54 * 
+Arc =  49 ,  From =  16 ,  To =  17 ,  Longueur =   118.93 , Duree =    21.41 * 
+Arc =  50 ,  From =  16 ,  To =  27 ,  Longueur =    87.10 , Duree =    15.68 * 
+Arc =  51 ,  From =  17 ,  To =   5 ,  Longueur =   146.20 , Duree =    26.32 * 
+Arc =  52 ,  From =  17 ,  To =   6 ,  Longueur =   139.18 , Duree =    25.05 * 
+Arc =  53 ,  From =  17 ,  To =  16 ,  Longueur =   118.93 , Duree =    21.41 * 
+Arc =  54 ,  From =  17 ,  To =  18 ,  Longueur =   102.21 , Duree =    18.40 * 
+Arc =  55 ,  From =  17 ,  To =  28 ,  Longueur =   143.57 , Duree =    25.84 * 
+Arc =  56 ,  From =  18 ,  To =  28 ,  Longueur =   106.72 , Duree =    19.21 * 
+Arc =  57 ,  From =  19 ,  To =  20 ,  Longueur =    99.88 , Duree =    17.98 * 
+Arc =  58 ,  From =  19 ,  To =  29 ,  Longueur =   103.99 , Duree =    18.72 * 
+Arc =  59 ,  From =  20 ,  To =   8 ,  Longueur =   153.17 , Duree =    27.57 * 
+Arc =  60 ,  From =  20 ,  To =  19 ,  Longueur =    99.88 , Duree =    17.98 * 
+Arc =  61 ,  From =  20 ,  To =  21 ,  Longueur =   107.84 , Duree =    19.41 * 
+Arc =  62 ,  From =  20 ,  To =  29 ,  Longueur =   133.12 , Duree =    23.96 * 
+Arc =  63 ,  From =  21 ,  To =  30 ,  Longueur =   100.29 , Duree =    18.05 * 
+Arc =  64 ,  From =  22 ,  To =   8 ,  Longueur =   115.44 , Duree =    20.78 * 
+Arc =  65 ,  From =  22 ,  To =   9 ,  Longueur =    97.80 , Duree =    17.60 * 
+Arc =  66 ,  From =  22 ,  To =  31 ,  Longueur =   111.34 , Duree =    20.04 * 
+Arc =  67 ,  From =  22 ,  To =  32 ,  Longueur =   180.29 , Duree =    32.45 * 
+Arc =  68 ,  From =  23 ,  To =  12 ,  Longueur =   154.18 , Duree =    27.75 * 
+Arc =  69 ,  From =  23 ,  To =  24 ,  Longueur =   201.88 , Duree =    36.34 * 
+Arc =  70 ,  From =  24 ,  To =  12 ,  Longueur =   141.45 , Duree =    25.46 * 
+Arc =  71 ,  From =  24 ,  To =  23 ,  Longueur =   201.88 , Duree =    36.34 * 
+Arc =  72 ,  From =  24 ,  To =  25 ,  Longueur =   219.10 , Duree =    39.44 * 
+Arc =  73 ,  From =  25 ,  To =   2 ,  Longueur =   298.32 , Duree =    53.70 * 
+Arc =  74 ,  From =  25 ,  To =  14 ,  Longueur =   103.10 , Duree =    18.56 * 
+Arc =  75 ,  From =  25 ,  To =  15 ,  Longueur =   172.41 , Duree =    31.03 * 
+Arc =  76 ,  From =  25 ,  To =  24 ,  Longueur =   219.10 , Duree =    39.44 * 
+Arc =  77 ,  From =  25 ,  To =  26 ,  Longueur =    97.47 , Duree =    17.55 * 
+Arc =  78 ,  From =  26 ,  To =  15 ,  Longueur =   109.43 , Duree =    19.70 * 
+Arc =  79 ,  From =  26 ,  To =  27 ,  Longueur =   117.02 , Duree =    21.06 * 
+Arc =  80 ,  From =  27 ,  To =  16 ,  Longueur =    87.10 , Duree =    15.68 * 
+Arc =  81 ,  From =  27 ,  To =  17 ,  Longueur =   125.23 , Duree =    22.54 * 
+Arc =  82 ,  From =  27 ,  To =  26 ,  Longueur =   117.02 , Duree =    21.06 * 
+Arc =  83 ,  From =  27 ,  To =  28 ,  Longueur =   191.93 , Duree =    34.55 * 
+Arc =  84 ,  From =  28 ,  To =  27 ,  Longueur =   191.93 , Duree =    34.55 * 
+Arc =  85 ,  From =  28 ,  To =  29 ,  Longueur =   212.10 , Duree =    38.18 * 
+Arc =  86 ,  From =  29 ,  To =   6 ,  Longueur =   290.24 , Duree =    52.24 * 
+Arc =  87 ,  From =  29 ,  To =  19 ,  Longueur =   103.99 , Duree =    18.72 * 
+Arc =  88 ,  From =  29 ,  To =  20 ,  Longueur =   133.12 , Duree =    23.96 * 
+Arc =  89 ,  From =  29 ,  To =  28 ,  Longueur =   212.10 , Duree =    38.18 * 
+Arc =  90 ,  From =  29 ,  To =  30 ,  Longueur =   220.52 , Duree =    39.69 * 
+Arc =  91 ,  From =  30 ,  To =  31 ,  Longueur =    95.90 , Duree =    17.26 * 
+Arc =  92 ,  From =  31 ,  To =  22 ,  Longueur =   111.34 , Duree =    20.04 * 
+Arc =  93 ,  From =  32 ,  To =  22 ,  Longueur =   180.29 , Duree =    32.45 * 
+Arc =  94 ,  From =  32 ,  To =  31 ,  Longueur =   112.48 , Duree =    20.25 * 
+
+// List Of Task Nodes
+Noeud =   1 ,  Rank =   4 ,  Qty = 157 ,  Duree =     1.57 *  
+Noeud =   2 ,  Rank =   5 ,  Qty =  74 ,  Duree =     0.74 *  
+Noeud =   3 ,  Rank =   7 ,  Qty = 198 ,  Duree =     1.98 *  
+Noeud =   4 ,  Rank =   8 ,  Qty = 425 ,  Duree =     4.25 *  
+Noeud =   5 ,  Rank =  14 ,  Qty = 310 ,  Duree =     3.10 *  
+Noeud =   6 ,  Rank =  15 ,  Qty = 337 ,  Duree =     3.37 *  
+Noeud =   7 ,  Rank =  17 ,  Qty = 481 ,  Duree =    19.24 *  
+Noeud =   8 ,  Rank =  19 ,  Qty = 344 ,  Duree =     3.44 *  
+Noeud =   9 ,  Rank =  21 ,  Qty = 129 ,  Duree =     1.29 *  
+Noeud =  10 ,  Rank =  23 ,  Qty = 388 ,  Duree =     3.88 *  
+Noeud =  11 ,  Rank =  25 ,  Qty = 115 ,  Duree =     1.15 *  
+Noeud =  12 ,  Rank =  27 ,  Qty =  91 ,  Duree =     0.91 *  
+Noeud =  13 ,  Rank =  28 ,  Qty = 429 ,  Duree =     4.29 *  
+Noeud =  14 ,  Rank =  30 ,  Qty = 315 ,  Duree =     3.15 *  
+Noeud =  15 ,  Rank =  31 ,  Qty = 482 ,  Duree =     4.82 *  
+
+// Hubs parameters
+Hubs =   1 , Capacity = 4922 ,  Cost = 4187 , Rank = 26 * 
+Hubs =   2 , Capacity = 4988 ,  Cost = 2213 , Rank = 6 * 
+
+// Truck parameters
+Truck,  Capacity = 1481 ,  Range = 999999 , cost = 195 * 
+
+END OF FILE

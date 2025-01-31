@@ -1,0 +1,1067 @@
+123456792
+Name         = DLP_221.dat
+LowerBound   = UnKnown
+BestKnown    = UnKnown
+Nodes        = 221
+Coords       = Yes
+Arcs         = 720
+Node-Task    = 90
+Nbdepot   =  14
+
+// List of nodes with coordinates
+Node =  1 , X =   1 , Y = -16 , SUCC = 2 * 
+Node =  2 , X = 111 , Y =  -5 , SUCC = 1 , 3 , 22 * 
+Node =  3 , X = 200 , Y =   0 , SUCC = 2 , 4 , 14 , 23 * 
+Node =  4 , X = 299 , Y =   3 , SUCC = 3 , 5 , 14 * 
+Node =  5 , X = 414 , Y = -13 , SUCC = 14 , 15 , 25 * 
+Node =  6 , X = 495 , Y =  18 , SUCC = 5 , 15 * 
+Node =  7 , X = 605 , Y =  12 , SUCC = 6 , 8 , 16 , 27 * 
+Node =  8 , X = 709 , Y = -13 , SUCC = 7 , 9 , 16 * 
+Node =  9 , X = 800 , Y =   0 , SUCC = 8 , 10 , 16 , 18 * 
+Node = 10 , X = 899 , Y = -10 , SUCC = 9 , 11 , 18 * 
+Node = 11 , X = 996 , Y =  -9 , SUCC = 10 , 12 , 18 , 19 , 20 * 
+Node = 12 , X = 1184 , Y =  10 , SUCC = 11 , 20 * 
+Node = 13 , X = 1403 , Y =  16 , SUCC = 12 , 34 * 
+Node = 14 , X = 302 , Y = 115 , SUCC = 3 , 4 , 5 , 25 * 
+Node = 15 , X = 491 , Y =  88 , SUCC = 5 * 
+Node = 16 , X = 691 , Y =  96 , SUCC = 7 , 8 , 27 , 28 , 29 * 
+Node = 17 , X = 805 , Y =  83 , SUCC = 9 , 18 , 29 * 
+Node = 18 , X = 900 , Y = 100 , SUCC = 9 , 10 , 11 , 29 , 31 * 
+Node = 19 , X = 1000 , Y =  99 , SUCC = 11 , 18 * 
+Node = 20 , X = 1104 , Y = 113 , SUCC = 12 , 31 * 
+Node = 21 , X =   0 , Y = 199 , SUCC = 1 , 22 * 
+Node = 22 , X = 100 , Y = 201 , SUCC = 2 , 23 * 
+Node = 23 , X = 204 , Y = 210 , SUCC = 3 , 14 , 22 , 24 , 43 , 45 * 
+Node = 24 , X = 311 , Y = 210 , SUCC = 14 , 25 * 
+Node = 25 , X = 400 , Y = 203 , SUCC = 5 , 14 , 26 , 35 , 45 * 
+Node = 26 , X = 487 , Y = 205 , SUCC = 15 , 25 , 27 , 35 * 
+Node = 27 , X = 607 , Y = 206 , SUCC = 7 , 15 , 26 , 28 , 35 , 47 * 
+Node = 28 , X = 709 , Y = 188 , SUCC = 16 , 27 , 29 , 36 * 
+Node = 29 , X = 793 , Y = 204 , SUCC = 16 , 17 , 30 , 37 * 
+Node = 30 , X = 900 , Y = 186 , SUCC = 18 , 29 , 31 * 
+Node = 31 , X = 993 , Y = 213 , SUCC = 19 , 30 , 32 * 
+Node = 32 , X = 1100 , Y = 202 , SUCC = 31 , 40 * 
+Node = 33 , X = 1199 , Y = 185 , SUCC = 12 , 13 , 20 , 32 , 55 * 
+Node = 34 , X = 1403 , Y = 197 , SUCC = 13 , 33 , 55 * 
+Node = 35 , X = 495 , Y = 288 , SUCC = 27 , 45 , 47 * 
+Node = 36 , X = 707 , Y = 304 , SUCC = 28 , 29 , 47 * 
+Node = 37 , X = 801 , Y = 317 , SUCC = 38 , 49 * 
+Node = 38 , X = 913 , Y = 305 , SUCC = 29 , 30 , 39 , 51 * 
+Node = 39 , X = 1003 , Y = 317 , SUCC = 31 , 40 , 51 * 
+Node = 40 , X = 1095 , Y = 316 , SUCC = 32 * 
+Node = 41 , X = 1200 , Y = 294 , SUCC = 33 , 40 * 
+Node = 42 , X =   0 , Y = 392 , SUCC = 21 , 43 , 56 , 57 * 
+Node = 43 , X = 202 , Y = 390 , SUCC = 23 , 42 , 58 * 
+Node = 44 , X = 307 , Y = 404 , SUCC = 43 , 45 , 72 * 
+Node = 45 , X = 384 , Y = 392 , SUCC = 23 , 25 , 44 , 46 * 
+Node = 46 , X = 503 , Y = 404 , SUCC = 35 , 45 , 47 * 
+Node = 47 , X = 594 , Y = 392 , SUCC = 36 , 46 , 48 , 60 * 
+Node = 48 , X = 717 , Y = 392 , SUCC = 36 , 47 , 49 , 62 * 
+Node = 49 , X = 805 , Y = 414 , SUCC = 37 , 48 , 50 , 63 * 
+Node = 50 , X = 900 , Y = 407 , SUCC = 38 , 51 * 
+Node = 51 , X = 996 , Y = 413 , SUCC = 39 , 52 , 65 , 66 * 
+Node = 52 , X = 1107 , Y = 404 , SUCC = 40 , 51 , 53 * 
+Node = 53 , X = 1195 , Y = 409 , SUCC = 41 , 54 , 66 * 
+Node = 54 , X = 1291 , Y = 386 , SUCC = 53 , 55 , 68 * 
+Node = 55 , X = 1399 , Y = 398 , SUCC = 33 , 34 , 54 , 69 * 
+Node = 56 , X =   0 , Y = 501 , SUCC = 42 , 57 , 70 * 
+Node = 57 , X = 105 , Y = 510 , SUCC = 42 , 56 , 58 , 71 * 
+Node = 58 , X = 196 , Y = 494 , SUCC = 43 , 57 , 71 * 
+Node = 59 , X = 400 , Y = 501 , SUCC = 45 , 73 * 
+Node = 60 , X = 495 , Y = 511 , SUCC = 45 , 59 , 61 , 73 , 74 * 
+Node = 61 , X = 600 , Y = 498 , SUCC = 47 , 74 * 
+Node = 62 , X = 700 , Y = 498 , SUCC = 49 , 74 * 
+Node = 63 , X = 800 , Y = 504 , SUCC = 49 , 64 , 76 * 
+Node = 64 , X = 896 , Y = 490 , SUCC = 50 , 63 , 65 , 77 * 
+Node = 65 , X = 998 , Y = 489 , SUCC = 64 , 66 , 78 * 
+Node = 66 , X = 1088 , Y = 515 , SUCC = 51 , 65 , 78 , 79 * 
+Node = 67 , X = 1199 , Y = 497 , SUCC = 53 , 66 , 68 , 79 * 
+Node = 68 , X = 1300 , Y = 499 , SUCC = 80 * 
+Node = 69 , X = 1399 , Y = 490 , SUCC = 55 , 68 * 
+Node = 70 , X =   6 , Y = 615 , SUCC = 56 , 71 , 82 , 94 * 
+Node = 71 , X = 200 , Y = 596 , SUCC = 57 , 70 , 96 * 
+Node = 72 , X = 302 , Y = 590 , SUCC = 44 , 71 * 
+Node = 73 , X = 399 , Y = 602 , SUCC = 59 , 60 , 72 , 83 , 84 * 
+Node = 74 , X = 600 , Y = 615 , SUCC = 60 , 61 , 73 , 75 , 84 , 85 * 
+Node = 75 , X = 689 , Y = 610 , SUCC = 62 , 74 , 76 * 
+Node = 76 , X = 800 , Y = 608 , SUCC = 77 , 86 * 
+Node = 77 , X = 900 , Y = 601 , SUCC = 64 , 76 , 78 * 
+Node = 78 , X = 1000 , Y = 598 , SUCC = 66 , 77 , 79 , 88 , 89 * 
+Node = 79 , X = 1199 , Y = 608 , SUCC = 66 , 67 , 78 , 80 , 90 , 92 * 
+Node = 80 , X = 1290 , Y = 590 , SUCC = 79 * 
+Node = 81 , X = 1398 , Y = 619 , SUCC = 69 , 80 , 93 * 
+Node = 82 , X =  94 , Y = 687 , SUCC = 70 , 71 , 94 , 96 * 
+Node = 83 , X = 399 , Y = 693 , SUCC = 73 , 84 , 98 * 
+Node = 84 , X = 500 , Y = 700 , SUCC = 73 , 85 , 98 , 100 * 
+Node = 85 , X = 598 , Y = 710 , SUCC = 74 , 100 * 
+Node = 86 , X = 700 , Y = 698 , SUCC = 75 , 76 , 100 , 101 * 
+Node = 87 , X = 800 , Y = 704 , SUCC = 76 , 88 , 102 * 
+Node = 88 , X = 908 , Y = 690 , SUCC = 89 , 102 * 
+Node = 89 , X = 999 , Y = 709 , SUCC = 90 , 103 * 
+Node = 90 , X = 1115 , Y = 708 , SUCC = 78 , 79 , 89 , 91 , 103 * 
+Node = 91 , X = 1193 , Y = 707 , SUCC = 79 , 90 , 92 * 
+Node = 92 , X = 1317 , Y = 692 , SUCC = 91 , 105 * 
+Node = 93 , X = 1400 , Y = 699 , SUCC = 81 , 92 , 105 * 
+Node = 94 , X =   7 , Y = 804 , SUCC = 95 , 106 * 
+Node = 95 , X = 107 , Y = 786 , SUCC = 96 , 107 * 
+Node = 96 , X = 198 , Y = 810 , SUCC = 71 , 82 , 97 , 107 , 108 * 
+Node = 97 , X = 298 , Y = 797 , SUCC = 72 , 96 , 98 * 
+Node = 98 , X = 402 , Y = 811 , SUCC = 83 , 99 , 115 * 
+Node = 99 , X = 504 , Y = 786 , SUCC = 98 , 100 , 116 * 
+Node = 100 , X = 601 , Y = 798 , SUCC = 84 , 85 , 86 , 109 * 
+Node = 101 , X = 704 , Y = 807 , SUCC = 86 , 100 * 
+Node = 102 , X = 804 , Y = 809 , SUCC = 87 , 88 , 101 , 103 , 110 * 
+Node = 103 , X = 1000 , Y = 809 , SUCC = 89 , 90 , 102 , 104 , 111 * 
+Node = 104 , X = 1199 , Y = 797 , SUCC = 90 , 91 , 103 , 122 * 
+Node = 105 , X = 1395 , Y = 805 , SUCC = 93 , 104 * 
+Node = 106 , X =   1 , Y = 905 , SUCC = 107 , 112 * 
+Node = 107 , X =  96 , Y = 909 , SUCC = 94 , 95 , 106 , 108 , 112 , 114 * 
+Node = 108 , X = 208 , Y = 885 , SUCC = 96 , 107 * 
+Node = 109 , X = 613 , Y = 895 , SUCC = 100 , 110 * 
+Node = 110 , X = 803 , Y = 893 , SUCC = 109 , 111 * 
+Node = 111 , X = 1006 , Y = 904 , SUCC = 110 , 120 * 
+Node = 112 , X =   1 , Y = 1004 , SUCC = 132 * 
+Node = 113 , X = 108 , Y = 992 , SUCC = 107 , 112 , 114 * 
+Node = 114 , X = 188 , Y = 993 , SUCC = 108 , 134 * 
+Node = 115 , X = 402 , Y = 997 , SUCC = 98 , 114 , 116 , 125 , 134 , 136 * 
+Node = 116 , X = 504 , Y = 1007 , SUCC = 99 * 
+Node = 117 , X = 609 , Y = 1004 , SUCC = 109 , 116 , 118 , 125 * 
+Node = 118 , X = 800 , Y = 1001 , SUCC = 110 , 119 , 126 , 127 , 140 * 
+Node = 119 , X = 897 , Y = 1011 , SUCC = 118 , 120 , 127 * 
+Node = 120 , X = 999 , Y = 1019 , SUCC = 111 , 119 , 121 , 127 , 128 , 129 * 
+Node = 121 , X = 1094 , Y = 984 , SUCC = 122 , 129 * 
+Node = 122 , X = 1202 , Y = 1015 , SUCC = 104 , 130 * 
+Node = 123 , X = 1400 , Y = 997 , SUCC = 105 , 122 * 
+Node = 124 , X =  93 , Y = 1112 , SUCC = 113 , 114 , 132 * 
+Node = 125 , X = 485 , Y = 1106 , SUCC = 115 , 136 , 138 * 
+Node = 126 , X = 694 , Y = 1086 , SUCC = 117 , 118 , 138 , 140 * 
+Node = 127 , X = 897 , Y = 1104 , SUCC = 118 , 120 , 140 , 141 , 142 * 
+Node = 128 , X = 995 , Y = 1095 , SUCC = 120 , 129 , 142 * 
+Node = 129 , X = 1094 , Y = 1087 , SUCC = 121 , 128 , 130 , 143 , 144 * 
+Node = 130 , X = 1190 , Y = 1107 , SUCC = 122 , 129 , 131 * 
+Node = 131 , X = 1394 , Y = 1087 , SUCC = 123 , 146 * 
+Node = 132 , X =   0 , Y = 1193 , SUCC = 124 , 133 , 147 , 148 * 
+Node = 133 , X =  98 , Y = 1202 , SUCC = 124 , 148 * 
+Node = 134 , X = 214 , Y = 1213 , SUCC = 115 , 133 , 135 , 149 * 
+Node = 135 , X = 293 , Y = 1204 , SUCC = 136 * 
+Node = 136 , X = 398 , Y = 1197 , SUCC = 115 , 137 , 150 * 
+Node = 137 , X = 499 , Y = 1197 , SUCC = 136 * 
+Node = 138 , X = 600 , Y = 1210 , SUCC = 117 , 125 , 126 , 137 , 139 , 152 , 153 * 
+Node = 139 , X = 699 , Y = 1202 , SUCC = 138 , 140 * 
+Node = 140 , X = 789 , Y = 1195 , SUCC = 118 , 126 , 127 , 139 , 141 , 153 , 154 * 
+Node = 141 , X = 895 , Y = 1193 , SUCC = 127 , 142 * 
+Node = 142 , X = 999 , Y = 1194 , SUCC = 127 , 128 , 143 * 
+Node = 143 , X = 1100 , Y = 1200 , SUCC = 142 , 144 * 
+Node = 144 , X = 1189 , Y = 1188 , SUCC = 130 , 143 , 145 , 155 , 157 * 
+Node = 145 , X = 1303 , Y = 1211 , SUCC = 144 , 146 * 
+Node = 146 , X = 1400 , Y = 1200 , SUCC = 145 , 157 , 158 * 
+Node = 147 , X =  -1 , Y = 1288 , SUCC = 132 , 159 * 
+Node = 148 , X = 105 , Y = 1291 , SUCC = 132 , 147 , 149 , 160 , 161 * 
+Node = 149 , X = 200 , Y = 1301 , SUCC = 148 , 161 * 
+Node = 150 , X = 391 , Y = 1288 , SUCC = 136 , 151 , 163 * 
+Node = 151 , X = 500 , Y = 1300 , SUCC = 136 , 137 , 150 , 152 , 164 , 165 * 
+Node = 152 , X = 600 , Y = 1294 , SUCC = 153 , 165 * 
+Node = 153 , X = 698 , Y = 1316 , SUCC = 138 , 139 , 140 , 165 , 166 * 
+Node = 154 , X = 807 , Y = 1287 , SUCC = 153 , 167 * 
+Node = 155 , X = 1100 , Y = 1295 , SUCC = 143 , 168 , 169 * 
+Node = 156 , X = 1213 , Y = 1293 , SUCC = 144 , 157 * 
+Node = 157 , X = 1295 , Y = 1317 , SUCC = 144 , 145 , 146 , 156 , 158 , 170 , 171 , 172 * 
+Node = 158 , X = 1396 , Y = 1296 , SUCC = 157 * 
+Node = 159 , X =   4 , Y = 1394 , SUCC = 147 , 185 * 
+Node = 160 , X =  98 , Y = 1411 , SUCC = 148 , 159 , 161 * 
+Node = 161 , X = 202 , Y = 1402 , SUCC = 149 , 160 , 162 , 173 , 174 * 
+Node = 162 , X = 313 , Y = 1391 , SUCC = 135 , 161 , 163 * 
+Node = 163 , X = 402 , Y = 1406 , SUCC = 150 , 164 , 176 * 
+Node = 164 , X = 496 , Y = 1386 , SUCC = 163 * 
+Node = 165 , X = 598 , Y = 1403 , SUCC = 151 , 152 , 153 , 164 , 166 , 177 * 
+Node = 166 , X = 700 , Y = 1396 , SUCC = 167 * 
+Node = 167 , X = 794 , Y = 1415 , SUCC = 142 , 153 , 166 , 168 , 178 * 
+Node = 168 , X = 1000 , Y = 1400 , SUCC = 142 , 167 , 169 , 179 , 180 * 
+Node = 169 , X = 1094 , Y = 1408 , SUCC = 155 , 168 , 170 , 181 * 
+Node = 170 , X = 1201 , Y = 1397 , SUCC = 156 , 157 , 169 , 171 * 
+Node = 171 , X = 1313 , Y = 1409 , SUCC = 157 , 170 , 172 , 183 * 
+Node = 172 , X = 1410 , Y = 1408 , SUCC = 157 , 158 , 171 , 183 * 
+Node = 173 , X = 186 , Y = 1495 , SUCC = 161 * 
+Node = 174 , X = 300 , Y = 1500 , SUCC = 163 , 173 , 175 , 187 , 188 * 
+Node = 175 , X = 400 , Y = 1504 , SUCC = 163 , 174 , 176 * 
+Node = 176 , X = 484 , Y = 1492 , SUCC = 163 , 165 , 175 , 177 , 188 * 
+Node = 177 , X = 582 , Y = 1506 , SUCC = 189 * 
+Node = 178 , X = 803 , Y = 1496 , SUCC = 177 , 179 * 
+Node = 179 , X = 914 , Y = 1495 , SUCC = 168 , 178 , 180 , 191 * 
+Node = 180 , X = 997 , Y = 1503 , SUCC = 181 , 193 * 
+Node = 181 , X = 1106 , Y = 1486 , SUCC = 169 , 170 , 180 , 182 , 194 * 
+Node = 182 , X = 1201 , Y = 1492 , SUCC = 170 , 183 , 195 * 
+Node = 183 , X = 1300 , Y = 1506 , SUCC = 171 , 172 , 184 , 195 , 196 * 
+Node = 184 , X = 1403 , Y = 1497 , SUCC = 172 , 197 * 
+Node = 185 , X =  -4 , Y = 1596 , SUCC = 159 , 186 , 198 , 211 * 
+Node = 186 , X = 103 , Y = 1590 , SUCC = 160 , 185 , 187 , 198 * 
+Node = 187 , X = 200 , Y = 1598 , SUCC = 173 , 174 , 186 , 199 * 
+Node = 188 , X = 400 , Y = 1600 , SUCC = 174 , 175 , 176 , 187 , 200 , 201 * 
+Node = 189 , X = 588 , Y = 1589 , SUCC = 176 , 188 , 190 , 202 , 203 * 
+Node = 190 , X = 701 , Y = 1596 , SUCC = 191 , 204 * 
+Node = 191 , X = 815 , Y = 1606 , SUCC = 178 , 179 , 190 , 192 , 205 , 206 * 
+Node = 192 , X = 903 , Y = 1608 , SUCC = 191 , 193 , 206 * 
+Node = 193 , X = 991 , Y = 1594 , SUCC = 180 , 181 , 192 , 194 , 206 , 207 , 208 * 
+Node = 194 , X = 1106 , Y = 1614 , SUCC = 181 , 193 , 195 * 
+Node = 195 , X = 1203 , Y = 1617 , SUCC = 194 , 208 * 
+Node = 196 , X = 1297 , Y = 1597 , SUCC = 195 , 197 * 
+Node = 197 , X = 1401 , Y = 1598 , SUCC = 210 * 
+Node = 198 , X =  99 , Y = 1710 , SUCC = 185 , 213 * 
+Node = 199 , X = 196 , Y = 1707 , SUCC = 187 , 200 , 213 * 
+Node = 200 , X = 300 , Y = 1701 , SUCC = 199 , 201 , 213 * 
+Node = 201 , X = 395 , Y = 1706 , SUCC = 188 , 200 , 202 , 214 * 
+Node = 202 , X = 502 , Y = 1682 , SUCC = 189 , 201 , 203 , 214 * 
+Node = 203 , X = 598 , Y = 1717 , SUCC = 202 , 204 , 215 * 
+Node = 204 , X = 691 , Y = 1713 , SUCC = 190 , 205 * 
+Node = 205 , X = 802 , Y = 1698 , SUCC = 204 , 206 , 217 * 
+Node = 206 , X = 904 , Y = 1712 , SUCC = 192 , 193 , 207 , 217 , 218 , 219 * 
+Node = 207 , X = 1004 , Y = 1713 , SUCC = 206 , 208 , 219 * 
+Node = 208 , X = 1085 , Y = 1688 , SUCC = 193 , 195 , 209 , 219 * 
+Node = 209 , X = 1186 , Y = 1710 , SUCC = 195 , 220 * 
+Node = 210 , X = 1399 , Y = 1702 , SUCC = 197 , 209 , 221 * 
+Node = 211 , X =   9 , Y = 1817 , SUCC = 212 * 
+Node = 212 , X =  94 , Y = 1805 , SUCC = 198 * 
+Node = 213 , X = 200 , Y = 1800 , SUCC = 198 , 199 , 200 , 212 , 214 * 
+Node = 214 , X = 399 , Y = 1798 , SUCC = 213 , 215 * 
+Node = 215 , X = 601 , Y = 1796 , SUCC = 203 , 214 , 216 * 
+Node = 216 , X = 696 , Y = 1781 , SUCC = 204 , 215 , 217 * 
+Node = 217 , X = 800 , Y = 1793 , SUCC = 205 , 206 , 216 , 218 * 
+Node = 218 , X = 891 , Y = 1791 , SUCC = 206 , 217 , 219 * 
+Node = 219 , X = 1011 , Y = 1785 , SUCC = 206 , 208 , 218 , 220 * 
+Node = 220 , X = 1204 , Y = 1806 , SUCC = 208 , 219 , 221 * 
+Node = 221 , X = 1399 , Y = 1802 , SUCC = 210 , 220 * 
+
+// List Of Arcs
+Arc =   1 ,  From =   1 ,  To =   2 ,  Longueur =   118.29 , Duree =    21.29 * 
+Arc =   2 ,  From =   2 ,  To =   1 ,  Longueur =   118.29 , Duree =    21.29 * 
+Arc =   3 ,  From =   2 ,  To =   3 ,  Longueur =    90.03 , Duree =    16.21 * 
+Arc =   4 ,  From =   2 ,  To =  22 ,  Longueur =   214.55 , Duree =    38.62 * 
+Arc =   5 ,  From =   3 ,  To =   2 ,  Longueur =    90.03 , Duree =    16.21 * 
+Arc =   6 ,  From =   3 ,  To =   4 ,  Longueur =   100.04 , Duree =    18.01 * 
+Arc =   7 ,  From =   3 ,  To =  14 ,  Longueur =   164.48 , Duree =    29.61 * 
+Arc =   8 ,  From =   3 ,  To =  23 ,  Longueur =   220.54 , Duree =    39.70 * 
+Arc =   9 ,  From =   4 ,  To =   3 ,  Longueur =   100.04 , Duree =    18.01 * 
+Arc =  10 ,  From =   4 ,  To =   5 ,  Longueur =   123.07 , Duree =    22.15 * 
+Arc =  11 ,  From =   4 ,  To =  14 ,  Longueur =   113.16 , Duree =    20.37 * 
+Arc =  12 ,  From =   5 ,  To =  14 ,  Longueur =   176.89 , Duree =    31.84 * 
+Arc =  13 ,  From =   5 ,  To =  15 ,  Longueur =   134.62 , Duree =    24.23 * 
+Arc =  14 ,  From =   5 ,  To =  25 ,  Longueur =   222.95 , Duree =    40.13 * 
+Arc =  15 ,  From =   6 ,  To =   5 ,  Longueur =    89.33 , Duree =    16.08 * 
+Arc =  16 ,  From =   6 ,  To =  15 ,  Longueur =    75.72 , Duree =    13.63 * 
+Arc =  17 ,  From =   7 ,  To =   6 ,  Longueur =   116.77 , Duree =    21.02 * 
+Arc =  18 ,  From =   7 ,  To =   8 ,  Longueur =   106.96 , Duree =    19.25 * 
+Arc =  19 ,  From =   7 ,  To =  16 ,  Longueur =   129.83 , Duree =    23.37 * 
+Arc =  20 ,  From =   7 ,  To =  27 ,  Longueur =   209.53 , Duree =    37.72 * 
+Arc =  21 ,  From =   8 ,  To =   7 ,  Longueur =   106.96 , Duree =    19.25 * 
+Arc =  22 ,  From =   8 ,  To =   9 ,  Longueur =    97.44 , Duree =    17.54 * 
+Arc =  23 ,  From =   8 ,  To =  16 ,  Longueur =   111.58 , Duree =    20.08 * 
+Arc =  24 ,  From =   9 ,  To =   8 ,  Longueur =    97.44 , Duree =    17.54 * 
+Arc =  25 ,  From =   9 ,  To =  10 ,  Longueur =   106.47 , Duree =    19.16 * 
+Arc =  26 ,  From =   9 ,  To =  16 ,  Longueur =   153.96 , Duree =    27.71 * 
+Arc =  27 ,  From =   9 ,  To =  18 ,  Longueur =   144.25 , Duree =    25.96 * 
+Arc =  28 ,  From =  10 ,  To =   9 ,  Longueur =   106.47 , Duree =    19.16 * 
+Arc =  29 ,  From =  10 ,  To =  11 ,  Longueur =   102.83 , Duree =    18.51 * 
+Arc =  30 ,  From =  10 ,  To =  18 ,  Longueur =   112.20 , Duree =    20.20 * 
+Arc =  31 ,  From =  11 ,  To =  10 ,  Longueur =   102.83 , Duree =    18.51 * 
+Arc =  32 ,  From =  11 ,  To =  12 ,  Longueur =   196.52 , Duree =    35.37 * 
+Arc =  33 ,  From =  11 ,  To =  18 ,  Longueur =   145.25 , Duree =    26.14 * 
+Arc =  34 ,  From =  11 ,  To =  19 ,  Longueur =   115.64 , Duree =    20.82 * 
+Arc =  35 ,  From =  11 ,  To =  20 ,  Longueur =   171.08 , Duree =    30.79 * 
+Arc =  36 ,  From =  12 ,  To =  11 ,  Longueur =   196.52 , Duree =    35.37 * 
+Arc =  37 ,  From =  12 ,  To =  20 ,  Longueur =   140.85 , Duree =    25.35 * 
+Arc =  38 ,  From =  13 ,  To =  12 ,  Longueur =   219.08 , Duree =    39.43 * 
+Arc =  39 ,  From =  13 ,  To =  34 ,  Longueur =   193.67 , Duree =    34.86 * 
+Arc =  40 ,  From =  14 ,  To =   3 ,  Longueur =   164.48 , Duree =    29.61 * 
+Arc =  41 ,  From =  14 ,  To =   4 ,  Longueur =   113.16 , Duree =    20.37 * 
+Arc =  42 ,  From =  14 ,  To =   5 ,  Longueur =   176.89 , Duree =    31.84 * 
+Arc =  43 ,  From =  14 ,  To =  25 ,  Longueur =   138.30 , Duree =    24.89 * 
+Arc =  44 ,  From =  15 ,  To =   5 ,  Longueur =   134.62 , Duree =    24.23 * 
+Arc =  45 ,  From =  16 ,  To =   7 ,  Longueur =   129.83 , Duree =    23.37 * 
+Arc =  46 ,  From =  16 ,  To =   8 ,  Longueur =   111.58 , Duree =    20.08 * 
+Arc =  47 ,  From =  16 ,  To =  27 ,  Longueur =   146.71 , Duree =    26.41 * 
+Arc =  48 ,  From =  16 ,  To =  28 ,  Longueur =    95.62 , Duree =    17.21 * 
+Arc =  49 ,  From =  16 ,  To =  29 ,  Longueur =   161.92 , Duree =    29.15 * 
+Arc =  50 ,  From =  17 ,  To =   9 ,  Longueur =    87.31 , Duree =    15.72 * 
+Arc =  51 ,  From =  17 ,  To =  18 ,  Longueur =   102.30 , Duree =    18.41 * 
+Arc =  52 ,  From =  17 ,  To =  29 ,  Longueur =   125.24 , Duree =    22.54 * 
+Arc =  53 ,  From =  18 ,  To =   9 ,  Longueur =   144.25 , Duree =    25.96 * 
+Arc =  54 ,  From =  18 ,  To =  10 ,  Longueur =   112.20 , Duree =    20.20 * 
+Arc =  55 ,  From =  18 ,  To =  11 ,  Longueur =   145.25 , Duree =    26.14 * 
+Arc =  56 ,  From =  18 ,  To =  29 ,  Longueur =   152.20 , Duree =    27.40 * 
+Arc =  57 ,  From =  18 ,  To =  31 ,  Longueur =   155.13 , Duree =    27.92 * 
+Arc =  58 ,  From =  19 ,  To =  11 ,  Longueur =   115.64 , Duree =    20.82 * 
+Arc =  59 ,  From =  19 ,  To =  18 ,  Longueur =   108.01 , Duree =    19.44 * 
+Arc =  60 ,  From =  20 ,  To =  12 ,  Longueur =   140.85 , Duree =    25.35 * 
+Arc =  61 ,  From =  20 ,  To =  31 ,  Longueur =   150.90 , Duree =    27.16 * 
+Arc =  62 ,  From =  21 ,  To =   1 ,  Longueur =   215.00 , Duree =    38.70 * 
+Arc =  63 ,  From =  21 ,  To =  22 ,  Longueur =   101.02 , Duree =    18.18 * 
+Arc =  64 ,  From =  22 ,  To =   2 ,  Longueur =   214.55 , Duree =    38.62 * 
+Arc =  65 ,  From =  22 ,  To =  23 ,  Longueur =   112.74 , Duree =    20.29 * 
+Arc =  66 ,  From =  23 ,  To =   3 ,  Longueur =   220.54 , Duree =    39.70 * 
+Arc =  67 ,  From =  23 ,  To =  14 ,  Longueur =   143.31 , Duree =    25.80 * 
+Arc =  68 ,  From =  23 ,  To =  22 ,  Longueur =   112.74 , Duree =    20.29 * 
+Arc =  69 ,  From =  23 ,  To =  24 ,  Longueur =   107.00 , Duree =    19.26 * 
+Arc =  70 ,  From =  23 ,  To =  43 ,  Longueur =   198.01 , Duree =    35.64 * 
+Arc =  71 ,  From =  23 ,  To =  45 ,  Longueur =   266.22 , Duree =    47.92 * 
+Arc =  72 ,  From =  24 ,  To =  14 ,  Longueur =   100.20 , Duree =    18.04 * 
+Arc =  73 ,  From =  24 ,  To =  25 ,  Longueur =    91.95 , Duree =    16.55 * 
+Arc =  74 ,  From =  25 ,  To =   5 ,  Longueur =   222.95 , Duree =    40.13 * 
+Arc =  75 ,  From =  25 ,  To =  14 ,  Longueur =   138.30 , Duree =    24.89 * 
+Arc =  76 ,  From =  25 ,  To =  26 ,  Longueur =    89.63 , Duree =    16.13 * 
+Arc =  77 ,  From =  25 ,  To =  35 ,  Longueur =   137.67 , Duree =    24.78 * 
+Arc =  78 ,  From =  25 ,  To =  45 ,  Longueur =   206.75 , Duree =    37.21 * 
+Arc =  79 ,  From =  26 ,  To =  15 ,  Longueur =   122.92 , Duree =    22.13 * 
+Arc =  80 ,  From =  26 ,  To =  25 ,  Longueur =    89.63 , Duree =    16.13 * 
+Arc =  81 ,  From =  26 ,  To =  27 ,  Longueur =   124.80 , Duree =    22.46 * 
+Arc =  82 ,  From =  26 ,  To =  35 ,  Longueur =    90.89 , Duree =    16.36 * 
+Arc =  83 ,  From =  27 ,  To =   7 ,  Longueur =   209.53 , Duree =    37.72 * 
+Arc =  84 ,  From =  27 ,  To =  15 ,  Longueur =   178.71 , Duree =    32.17 * 
+Arc =  85 ,  From =  27 ,  To =  26 ,  Longueur =   124.80 , Duree =    22.46 * 
+Arc =  86 ,  From =  27 ,  To =  28 ,  Longueur =   113.93 , Duree =    20.51 * 
+Arc =  87 ,  From =  27 ,  To =  35 ,  Longueur =   152.69 , Duree =    27.48 * 
+Arc =  88 ,  From =  27 ,  To =  47 ,  Longueur =   193.91 , Duree =    34.90 * 
+Arc =  89 ,  From =  28 ,  To =  16 ,  Longueur =    95.62 , Duree =    17.21 * 
+Arc =  90 ,  From =  28 ,  To =  27 ,  Longueur =   113.93 , Duree =    20.51 * 
+Arc =  91 ,  From =  28 ,  To =  29 ,  Longueur =    85.51 , Duree =    15.39 * 
+Arc =  92 ,  From =  28 ,  To =  36 ,  Longueur =   116.02 , Duree =    20.88 * 
+Arc =  93 ,  From =  29 ,  To =  16 ,  Longueur =   161.92 , Duree =    29.15 * 
+Arc =  94 ,  From =  29 ,  To =  17 ,  Longueur =   125.24 , Duree =    22.54 * 
+Arc =  95 ,  From =  29 ,  To =  30 ,  Longueur =   119.35 , Duree =    21.48 * 
+Arc =  96 ,  From =  29 ,  To =  37 ,  Longueur =   123.48 , Duree =    22.23 * 
+Arc =  97 ,  From =  30 ,  To =  18 ,  Longueur =    92.02 , Duree =    16.56 * 
+Arc =  98 ,  From =  30 ,  To =  29 ,  Longueur =   119.35 , Duree =    21.48 * 
+Arc =  99 ,  From =  30 ,  To =  31 ,  Longueur =   100.71 , Duree =    18.13 * 
+Arc = 100 ,  From =  31 ,  To =  19 ,  Longueur =   117.64 , Duree =    21.18 * 
+Arc = 101 ,  From =  31 ,  To =  30 ,  Longueur =   100.71 , Duree =    18.13 * 
+Arc = 102 ,  From =  31 ,  To =  32 ,  Longueur =   110.79 , Duree =    19.94 * 
+Arc = 103 ,  From =  32 ,  To =  31 ,  Longueur =   110.79 , Duree =    19.94 * 
+Arc = 104 ,  From =  32 ,  To =  40 ,  Longueur =   115.25 , Duree =    20.75 * 
+Arc = 105 ,  From =  33 ,  To =  12 ,  Longueur =   186.18 , Duree =    33.51 * 
+Arc = 106 ,  From =  33 ,  To =  13 ,  Longueur =   264.91 , Duree =    47.68 * 
+Arc = 107 ,  From =  33 ,  To =  20 ,  Longueur =   129.93 , Duree =    23.39 * 
+Arc = 108 ,  From =  33 ,  To =  32 ,  Longueur =   106.48 , Duree =    19.17 * 
+Arc = 109 ,  From =  33 ,  To =  55 ,  Longueur =   312.63 , Duree =    56.27 * 
+Arc = 110 ,  From =  34 ,  To =  13 ,  Longueur =   193.67 , Duree =    34.86 * 
+Arc = 111 ,  From =  34 ,  To =  33 ,  Longueur =   214.57 , Duree =    38.62 * 
+Arc = 112 ,  From =  34 ,  To =  55 ,  Longueur =   207.07 , Duree =    37.27 * 
+Arc = 113 ,  From =  35 ,  To =  27 ,  Longueur =   152.69 , Duree =    27.48 * 
+Arc = 114 ,  From =  35 ,  To =  45 ,  Longueur =   162.76 , Duree =    29.30 * 
+Arc = 115 ,  From =  35 ,  To =  47 ,  Longueur =   146.46 , Duree =    26.36 * 
+Arc = 116 ,  From =  36 ,  To =  28 ,  Longueur =   116.02 , Duree =    20.88 * 
+Arc = 117 ,  From =  36 ,  To =  29 ,  Longueur =   131.89 , Duree =    23.74 * 
+Arc = 118 ,  From =  36 ,  To =  47 ,  Longueur =   150.38 , Duree =    27.07 * 
+Arc = 119 ,  From =  37 ,  To =  38 ,  Longueur =   121.65 , Duree =    21.90 * 
+Arc = 120 ,  From =  37 ,  To =  49 ,  Longueur =   103.88 , Duree =    18.70 * 
+Arc = 121 ,  From =  38 ,  To =  29 ,  Longueur =   170.96 , Duree =    30.77 * 
+Arc = 122 ,  From =  38 ,  To =  30 ,  Longueur =   131.68 , Duree =    23.70 * 
+Arc = 123 ,  From =  38 ,  To =  39 ,  Longueur =    98.97 , Duree =    17.81 * 
+Arc = 124 ,  From =  38 ,  To =  51 ,  Longueur =   136.21 , Duree =    24.52 * 
+Arc = 125 ,  From =  39 ,  To =  31 ,  Longueur =   105.52 , Duree =    18.99 * 
+Arc = 126 ,  From =  39 ,  To =  40 ,  Longueur =    95.69 , Duree =    17.22 * 
+Arc = 127 ,  From =  39 ,  To =  51 ,  Longueur =   104.92 , Duree =    18.89 * 
+Arc = 128 ,  From =  40 ,  To =  32 ,  Longueur =   115.25 , Duree =    20.75 * 
+Arc = 129 ,  From =  41 ,  To =  33 ,  Longueur =   113.36 , Duree =    20.41 * 
+Arc = 130 ,  From =  41 ,  To =  40 ,  Longueur =   114.79 , Duree =    20.66 * 
+Arc = 131 ,  From =  42 ,  To =  21 ,  Longueur =   202.65 , Duree =    36.48 * 
+Arc = 132 ,  From =  42 ,  To =  43 ,  Longueur =   208.07 , Duree =    37.45 * 
+Arc = 133 ,  From =  42 ,  To =  56 ,  Longueur =   116.63 , Duree =    20.99 * 
+Arc = 134 ,  From =  42 ,  To =  57 ,  Longueur =   167.43 , Duree =    30.14 * 
+Arc = 135 ,  From =  43 ,  To =  23 ,  Longueur =   198.01 , Duree =    35.64 * 
+Arc = 136 ,  From =  43 ,  To =  42 ,  Longueur =   208.07 , Duree =    37.45 * 
+Arc = 137 ,  From =  43 ,  To =  58 ,  Longueur =   112.51 , Duree =    20.25 * 
+Arc = 138 ,  From =  44 ,  To =  43 ,  Longueur =   108.05 , Duree =    19.45 * 
+Arc = 139 ,  From =  44 ,  To =  45 ,  Longueur =    79.49 , Duree =    14.31 * 
+Arc = 140 ,  From =  44 ,  To =  72 ,  Longueur =   186.07 , Duree =    33.49 * 
+Arc = 141 ,  From =  45 ,  To =  23 ,  Longueur =   266.22 , Duree =    47.92 * 
+Arc = 142 ,  From =  45 ,  To =  25 ,  Longueur =   206.75 , Duree =    37.21 * 
+Arc = 143 ,  From =  45 ,  To =  44 ,  Longueur =    79.49 , Duree =    14.31 * 
+Arc = 144 ,  From =  45 ,  To =  46 ,  Longueur =   125.58 , Duree =    22.61 * 
+Arc = 145 ,  From =  46 ,  To =  35 ,  Longueur =   123.25 , Duree =    22.19 * 
+Arc = 146 ,  From =  46 ,  To =  45 ,  Longueur =   125.58 , Duree =    22.61 * 
+Arc = 147 ,  From =  46 ,  To =  47 ,  Longueur =    96.38 , Duree =    17.35 * 
+Arc = 148 ,  From =  47 ,  To =  36 ,  Longueur =   150.38 , Duree =    27.07 * 
+Arc = 149 ,  From =  47 ,  To =  46 ,  Longueur =    96.38 , Duree =    17.35 * 
+Arc = 150 ,  From =  47 ,  To =  48 ,  Longueur =   126.69 , Duree =    22.80 * 
+Arc = 151 ,  From =  47 ,  To =  60 ,  Longueur =   168.73 , Duree =    30.37 * 
+Arc = 152 ,  From =  48 ,  To =  36 ,  Longueur =    92.11 , Duree =    16.58 * 
+Arc = 153 ,  From =  48 ,  To =  47 ,  Longueur =   126.69 , Duree =    22.80 * 
+Arc = 154 ,  From =  48 ,  To =  49 ,  Longueur =    93.43 , Duree =    16.82 * 
+Arc = 155 ,  From =  48 ,  To =  62 ,  Longueur =   109.50 , Duree =    19.71 * 
+Arc = 156 ,  From =  49 ,  To =  37 ,  Longueur =   103.88 , Duree =    18.70 * 
+Arc = 157 ,  From =  49 ,  To =  48 ,  Longueur =    93.43 , Duree =    16.82 * 
+Arc = 158 ,  From =  49 ,  To =  50 ,  Longueur =   104.78 , Duree =    18.86 * 
+Arc = 159 ,  From =  49 ,  To =  63 ,  Longueur =    93.74 , Duree =    16.87 * 
+Arc = 160 ,  From =  50 ,  To =  38 ,  Longueur =   102.83 , Duree =    18.51 * 
+Arc = 161 ,  From =  50 ,  To =  51 ,  Longueur =   102.92 , Duree =    18.53 * 
+Arc = 162 ,  From =  51 ,  To =  39 ,  Longueur =   104.92 , Duree =    18.89 * 
+Arc = 163 ,  From =  51 ,  To =  52 ,  Longueur =   113.59 , Duree =    20.45 * 
+Arc = 164 ,  From =  51 ,  To =  65 ,  Longueur =    78.31 , Duree =    14.10 * 
+Arc = 165 ,  From =  51 ,  To =  66 ,  Longueur =   148.35 , Duree =    26.70 * 
+Arc = 166 ,  From =  52 ,  To =  40 ,  Longueur =    91.48 , Duree =    16.47 * 
+Arc = 167 ,  From =  52 ,  To =  51 ,  Longueur =   113.59 , Duree =    20.45 * 
+Arc = 168 ,  From =  52 ,  To =  53 ,  Longueur =    96.07 , Duree =    17.29 * 
+Arc = 169 ,  From =  53 ,  To =  41 ,  Longueur =   117.41 , Duree =    21.13 * 
+Arc = 170 ,  From =  53 ,  To =  54 ,  Longueur =   103.65 , Duree =    18.66 * 
+Arc = 171 ,  From =  53 ,  To =  66 ,  Longueur =   161.16 , Duree =    29.01 * 
+Arc = 172 ,  From =  54 ,  To =  53 ,  Longueur =   103.65 , Duree =    18.66 * 
+Arc = 173 ,  From =  54 ,  To =  55 ,  Longueur =   113.01 , Duree =    20.34 * 
+Arc = 174 ,  From =  54 ,  To =  68 ,  Longueur =   117.89 , Duree =    21.22 * 
+Arc = 175 ,  From =  55 ,  To =  33 ,  Longueur =   312.63 , Duree =    56.27 * 
+Arc = 176 ,  From =  55 ,  To =  34 ,  Longueur =   207.07 , Duree =    37.27 * 
+Arc = 177 ,  From =  55 ,  To =  54 ,  Longueur =   113.01 , Duree =    20.34 * 
+Arc = 178 ,  From =  55 ,  To =  69 ,  Longueur =    97.52 , Duree =    17.55 * 
+Arc = 179 ,  From =  56 ,  To =  42 ,  Longueur =   116.63 , Duree =    20.99 * 
+Arc = 180 ,  From =  56 ,  To =  57 ,  Longueur =   112.76 , Duree =    20.30 * 
+Arc = 181 ,  From =  56 ,  To =  70 ,  Longueur =   125.57 , Duree =    22.60 * 
+Arc = 182 ,  From =  57 ,  To =  42 ,  Longueur =   167.43 , Duree =    30.14 * 
+Arc = 183 ,  From =  57 ,  To =  56 ,  Longueur =   112.76 , Duree =    20.30 * 
+Arc = 184 ,  From =  57 ,  To =  58 ,  Longueur =    96.09 , Duree =    17.30 * 
+Arc = 185 ,  From =  57 ,  To =  71 ,  Longueur =   129.43 , Duree =    23.30 * 
+Arc = 186 ,  From =  58 ,  To =  43 ,  Longueur =   112.51 , Duree =    20.25 * 
+Arc = 187 ,  From =  58 ,  To =  57 ,  Longueur =    96.09 , Duree =    17.30 * 
+Arc = 188 ,  From =  58 ,  To =  71 ,  Longueur =   103.10 , Duree =    18.56 * 
+Arc = 189 ,  From =  59 ,  To =  45 ,  Longueur =   112.37 , Duree =    20.23 * 
+Arc = 190 ,  From =  59 ,  To =  73 ,  Longueur =   103.03 , Duree =    18.54 * 
+Arc = 191 ,  From =  60 ,  To =  45 ,  Longueur =   162.73 , Duree =    29.29 * 
+Arc = 192 ,  From =  60 ,  To =  59 ,  Longueur =    98.39 , Duree =    17.71 * 
+Arc = 193 ,  From =  60 ,  To =  61 ,  Longueur =   112.15 , Duree =    20.19 * 
+Arc = 194 ,  From =  60 ,  To =  73 ,  Longueur =   134.92 , Duree =    24.29 * 
+Arc = 195 ,  From =  60 ,  To =  74 ,  Longueur =   156.65 , Duree =    28.20 * 
+Arc = 196 ,  From =  61 ,  To =  47 ,  Longueur =   106.17 , Duree =    19.11 * 
+Arc = 197 ,  From =  61 ,  To =  74 ,  Longueur =   117.00 , Duree =    21.06 * 
+Arc = 198 ,  From =  62 ,  To =  49 ,  Longueur =   141.19 , Duree =    25.41 * 
+Arc = 199 ,  From =  62 ,  To =  74 ,  Longueur =   158.53 , Duree =    28.54 * 
+Arc = 200 ,  From =  63 ,  To =  49 ,  Longueur =    93.74 , Duree =    16.87 * 
+Arc = 201 ,  From =  63 ,  To =  64 ,  Longueur =   103.81 , Duree =    18.69 * 
+Arc = 202 ,  From =  63 ,  To =  76 ,  Longueur =   105.04 , Duree =    18.91 * 
+Arc = 203 ,  From =  64 ,  To =  50 ,  Longueur =    84.76 , Duree =    15.26 * 
+Arc = 204 ,  From =  64 ,  To =  63 ,  Longueur =   103.81 , Duree =    18.69 * 
+Arc = 205 ,  From =  64 ,  To =  65 ,  Longueur =   106.09 , Duree =    19.10 * 
+Arc = 206 ,  From =  64 ,  To =  77 ,  Longueur =   119.96 , Duree =    21.59 * 
+Arc = 207 ,  From =  65 ,  To =  64 ,  Longueur =   106.09 , Duree =    19.10 * 
+Arc = 208 ,  From =  65 ,  To =  66 ,  Longueur =   103.05 , Duree =    18.55 * 
+Arc = 209 ,  From =  65 ,  To =  78 ,  Longueur =   114.47 , Duree =    20.60 * 
+Arc = 210 ,  From =  66 ,  To =  51 ,  Longueur =   148.35 , Duree =    26.70 * 
+Arc = 211 ,  From =  66 ,  To =  65 ,  Longueur =   103.05 , Duree =    18.55 * 
+Arc = 212 ,  From =  66 ,  To =  78 ,  Longueur =   133.06 , Duree =    23.95 * 
+Arc = 213 ,  From =  66 ,  To =  79 ,  Longueur =   146.26 , Duree =    26.33 * 
+Arc = 214 ,  From =  67 ,  To =  53 ,  Longueur =    96.02 , Duree =    17.28 * 
+Arc = 215 ,  From =  67 ,  To =  66 ,  Longueur =   113.57 , Duree =    20.44 * 
+Arc = 216 ,  From =  67 ,  To =  68 ,  Longueur =   106.07 , Duree =    19.09 * 
+Arc = 217 ,  From =  67 ,  To =  79 ,  Longueur =   120.99 , Duree =    21.78 * 
+Arc = 218 ,  From =  68 ,  To =  80 ,  Longueur =    92.46 , Duree =    16.64 * 
+Arc = 219 ,  From =  69 ,  To =  55 ,  Longueur =    97.52 , Duree =    17.55 * 
+Arc = 220 ,  From =  69 ,  To =  68 ,  Longueur =   102.39 , Duree =    18.43 * 
+Arc = 221 ,  From =  70 ,  To =  56 ,  Longueur =   125.57 , Duree =    22.60 * 
+Arc = 222 ,  From =  70 ,  To =  71 ,  Longueur =   212.47 , Duree =    38.24 * 
+Arc = 223 ,  From =  70 ,  To =  82 ,  Longueur =   123.93 , Duree =    22.31 * 
+Arc = 224 ,  From =  70 ,  To =  94 ,  Longueur =   202.23 , Duree =    36.40 * 
+Arc = 225 ,  From =  71 ,  To =  57 ,  Longueur =   129.43 , Duree =    23.30 * 
+Arc = 226 ,  From =  71 ,  To =  70 ,  Longueur =   212.47 , Duree =    38.24 * 
+Arc = 227 ,  From =  71 ,  To =  96 ,  Longueur =   216.15 , Duree =    38.91 * 
+Arc = 228 ,  From =  72 ,  To =  44 ,  Longueur =   186.07 , Duree =    33.49 * 
+Arc = 229 ,  From =  72 ,  To =  71 ,  Longueur =   102.18 , Duree =    18.39 * 
+Arc = 230 ,  From =  73 ,  To =  59 ,  Longueur =   103.03 , Duree =    18.54 * 
+Arc = 231 ,  From =  73 ,  To =  60 ,  Longueur =   134.92 , Duree =    24.29 * 
+Arc = 232 ,  From =  73 ,  To =  72 ,  Longueur =    98.72 , Duree =    17.77 * 
+Arc = 233 ,  From =  73 ,  To =  83 ,  Longueur =    95.55 , Duree =    17.20 * 
+Arc = 234 ,  From =  73 ,  To =  84 ,  Longueur =   149.17 , Duree =    26.85 * 
+Arc = 235 ,  From =  74 ,  To =  60 ,  Longueur =   156.65 , Duree =    28.20 * 
+Arc = 236 ,  From =  74 ,  To =  61 ,  Longueur =   117.00 , Duree =    21.06 * 
+Arc = 237 ,  From =  74 ,  To =  73 ,  Longueur =   201.42 , Duree =    36.26 * 
+Arc = 238 ,  From =  74 ,  To =  75 ,  Longueur =    94.49 , Duree =    17.01 * 
+Arc = 239 ,  From =  74 ,  To =  84 ,  Longueur =   139.12 , Duree =    25.04 * 
+Arc = 240 ,  From =  74 ,  To =  85 ,  Longueur =    98.82 , Duree =    17.79 * 
+Arc = 241 ,  From =  75 ,  To =  62 ,  Longueur =   117.04 , Duree =    21.07 * 
+Arc = 242 ,  From =  75 ,  To =  74 ,  Longueur =    94.49 , Duree =    17.01 * 
+Arc = 243 ,  From =  75 ,  To =  76 ,  Longueur =   121.01 , Duree =    21.78 * 
+Arc = 244 ,  From =  76 ,  To =  77 ,  Longueur =   110.27 , Duree =    19.85 * 
+Arc = 245 ,  From =  76 ,  To =  86 ,  Longueur =   138.57 , Duree =    24.94 * 
+Arc = 246 ,  From =  77 ,  To =  64 ,  Longueur =   119.96 , Duree =    21.59 * 
+Arc = 247 ,  From =  77 ,  To =  76 ,  Longueur =   110.27 , Duree =    19.85 * 
+Arc = 248 ,  From =  77 ,  To =  78 ,  Longueur =   108.05 , Duree =    19.45 * 
+Arc = 249 ,  From =  78 ,  To =  66 ,  Longueur =   133.06 , Duree =    23.95 * 
+Arc = 250 ,  From =  78 ,  To =  77 ,  Longueur =   108.05 , Duree =    19.45 * 
+Arc = 251 ,  From =  78 ,  To =  79 ,  Longueur =   201.24 , Duree =    36.22 * 
+Arc = 252 ,  From =  78 ,  To =  88 ,  Longueur =   140.52 , Duree =    25.29 * 
+Arc = 253 ,  From =  78 ,  To =  89 ,  Longueur =   118.77 , Duree =    21.38 * 
+Arc = 254 ,  From =  79 ,  To =  66 ,  Longueur =   146.26 , Duree =    26.33 * 
+Arc = 255 ,  From =  79 ,  To =  67 ,  Longueur =   120.99 , Duree =    21.78 * 
+Arc = 256 ,  From =  79 ,  To =  78 ,  Longueur =   201.24 , Duree =    36.22 * 
+Arc = 257 ,  From =  79 ,  To =  80 ,  Longueur =    97.40 , Duree =    17.53 * 
+Arc = 258 ,  From =  79 ,  To =  90 ,  Longueur =   143.66 , Duree =    25.86 * 
+Arc = 259 ,  From =  79 ,  To =  92 ,  Longueur =   147.74 , Duree =    26.59 * 
+Arc = 260 ,  From =  80 ,  To =  79 ,  Longueur =    97.40 , Duree =    17.53 * 
+Arc = 261 ,  From =  81 ,  To =  69 ,  Longueur =   130.29 , Duree =    23.45 * 
+Arc = 262 ,  From =  81 ,  To =  80 ,  Longueur =   114.06 , Duree =    20.53 * 
+Arc = 263 ,  From =  81 ,  To =  93 ,  Longueur =    82.43 , Duree =    14.84 * 
+Arc = 264 ,  From =  82 ,  To =  70 ,  Longueur =   123.93 , Duree =    22.31 * 
+Arc = 265 ,  From =  82 ,  To =  71 ,  Longueur =   149.48 , Duree =    26.91 * 
+Arc = 266 ,  From =  82 ,  To =  94 ,  Longueur =   148.72 , Duree =    26.77 * 
+Arc = 267 ,  From =  82 ,  To =  96 ,  Longueur =   164.30 , Duree =    29.57 * 
+Arc = 268 ,  From =  83 ,  To =  73 ,  Longueur =    95.55 , Duree =    17.20 * 
+Arc = 269 ,  From =  83 ,  To =  84 ,  Longueur =   106.30 , Duree =    19.13 * 
+Arc = 270 ,  From =  83 ,  To =  98 ,  Longueur =   119.22 , Duree =    21.46 * 
+Arc = 271 ,  From =  84 ,  To =  73 ,  Longueur =   149.17 , Duree =    26.85 * 
+Arc = 272 ,  From =  84 ,  To =  85 ,  Longueur =    98.51 , Duree =    17.73 * 
+Arc = 273 ,  From =  84 ,  To =  98 ,  Longueur =   151.03 , Duree =    27.19 * 
+Arc = 274 ,  From =  84 ,  To = 100 ,  Longueur =   146.36 , Duree =    26.34 * 
+Arc = 275 ,  From =  85 ,  To =  74 ,  Longueur =    98.82 , Duree =    17.79 * 
+Arc = 276 ,  From =  85 ,  To = 100 ,  Longueur =    88.05 , Duree =    15.85 * 
+Arc = 277 ,  From =  86 ,  To =  75 ,  Longueur =    96.67 , Duree =    17.40 * 
+Arc = 278 ,  From =  86 ,  To =  76 ,  Longueur =   138.57 , Duree =    24.94 * 
+Arc = 279 ,  From =  86 ,  To = 100 ,  Longueur =   151.97 , Duree =    27.36 * 
+Arc = 280 ,  From =  86 ,  To = 101 ,  Longueur =   119.98 , Duree =    21.60 * 
+Arc = 281 ,  From =  87 ,  To =  76 ,  Longueur =    97.92 , Duree =    17.63 * 
+Arc = 282 ,  From =  87 ,  To =  88 ,  Longueur =   111.08 , Duree =    19.99 * 
+Arc = 283 ,  From =  87 ,  To = 102 ,  Longueur =   110.33 , Duree =    19.86 * 
+Arc = 284 ,  From =  88 ,  To =  89 ,  Longueur =   100.40 , Duree =    18.07 * 
+Arc = 285 ,  From =  88 ,  To = 102 ,  Longueur =   169.10 , Duree =    30.44 * 
+Arc = 286 ,  From =  89 ,  To =  90 ,  Longueur =   124.12 , Duree =    22.34 * 
+Arc = 287 ,  From =  89 ,  To = 103 ,  Longueur =   102.01 , Duree =    18.36 * 
+Arc = 288 ,  From =  90 ,  To =  78 ,  Longueur =   171.87 , Duree =    30.94 * 
+Arc = 289 ,  From =  90 ,  To =  79 ,  Longueur =   143.66 , Duree =    25.86 * 
+Arc = 290 ,  From =  90 ,  To =  89 ,  Longueur =   124.12 , Duree =    22.34 * 
+Arc = 291 ,  From =  90 ,  To =  91 ,  Longueur =    78.79 , Duree =    14.18 * 
+Arc = 292 ,  From =  90 ,  To = 103 ,  Longueur =   166.83 , Duree =    30.03 * 
+Arc = 293 ,  From =  91 ,  To =  79 ,  Longueur =   106.12 , Duree =    19.10 * 
+Arc = 294 ,  From =  91 ,  To =  90 ,  Longueur =    78.79 , Duree =    14.18 * 
+Arc = 295 ,  From =  91 ,  To =  92 ,  Longueur =   132.40 , Duree =    23.83 * 
+Arc = 296 ,  From =  92 ,  To =  91 ,  Longueur =   132.40 , Duree =    23.83 * 
+Arc = 297 ,  From =  92 ,  To = 105 ,  Longueur =   144.17 , Duree =    25.95 * 
+Arc = 298 ,  From =  93 ,  To =  81 ,  Longueur =    82.43 , Duree =    14.84 * 
+Arc = 299 ,  From =  93 ,  To =  92 ,  Longueur =    89.96 , Duree =    16.19 * 
+Arc = 300 ,  From =  93 ,  To = 105 ,  Longueur =   115.67 , Duree =    20.82 * 
+Arc = 301 ,  From =  94 ,  To =  95 ,  Longueur =   109.74 , Duree =    19.75 * 
+Arc = 302 ,  From =  94 ,  To = 106 ,  Longueur =   110.28 , Duree =    19.85 * 
+Arc = 303 ,  From =  95 ,  To =  96 ,  Longueur =    94.11 , Duree =    16.94 * 
+Arc = 304 ,  From =  95 ,  To = 107 ,  Longueur =   127.20 , Duree =    22.90 * 
+Arc = 305 ,  From =  96 ,  To =  71 ,  Longueur =   216.15 , Duree =    38.91 * 
+Arc = 306 ,  From =  96 ,  To =  82 ,  Longueur =   164.30 , Duree =    29.57 * 
+Arc = 307 ,  From =  96 ,  To =  97 ,  Longueur =   107.90 , Duree =    19.42 * 
+Arc = 308 ,  From =  96 ,  To = 107 ,  Longueur =   154.94 , Duree =    27.89 * 
+Arc = 309 ,  From =  96 ,  To = 108 ,  Longueur =    77.18 , Duree =    13.89 * 
+Arc = 310 ,  From =  97 ,  To =  72 ,  Longueur =   213.25 , Duree =    38.38 * 
+Arc = 311 ,  From =  97 ,  To =  96 ,  Longueur =   107.90 , Duree =    19.42 * 
+Arc = 312 ,  From =  97 ,  To =  98 ,  Longueur =   111.23 , Duree =    20.02 * 
+Arc = 313 ,  From =  98 ,  To =  83 ,  Longueur =   119.22 , Duree =    21.46 * 
+Arc = 314 ,  From =  98 ,  To =  99 ,  Longueur =   105.02 , Duree =    18.90 * 
+Arc = 315 ,  From =  98 ,  To = 115 ,  Longueur =   200.88 , Duree =    36.16 * 
+Arc = 316 ,  From =  99 ,  To =  98 ,  Longueur =   105.02 , Duree =    18.90 * 
+Arc = 317 ,  From =  99 ,  To = 100 ,  Longueur =   103.60 , Duree =    18.65 * 
+Arc = 318 ,  From =  99 ,  To = 116 ,  Longueur =   227.63 , Duree =    40.97 * 
+Arc = 319 ,  From = 100 ,  To =  84 ,  Longueur =   146.36 , Duree =    26.34 * 
+Arc = 320 ,  From = 100 ,  To =  85 ,  Longueur =    88.05 , Duree =    15.85 * 
+Arc = 321 ,  From = 100 ,  To =  86 ,  Longueur =   151.97 , Duree =    27.36 * 
+Arc = 322 ,  From = 100 ,  To = 109 ,  Longueur =   106.54 , Duree =    19.18 * 
+Arc = 323 ,  From = 101 ,  To =  86 ,  Longueur =   119.98 , Duree =    21.60 * 
+Arc = 324 ,  From = 101 ,  To = 100 ,  Longueur =   110.63 , Duree =    19.91 * 
+Arc = 325 ,  From = 102 ,  To =  87 ,  Longueur =   110.33 , Duree =    19.86 * 
+Arc = 326 ,  From = 102 ,  To =  88 ,  Longueur =   169.10 , Duree =    30.44 * 
+Arc = 327 ,  From = 102 ,  To = 101 ,  Longueur =   106.02 , Duree =    19.08 * 
+Arc = 328 ,  From = 102 ,  To = 103 ,  Longueur =   211.68 , Duree =    38.10 * 
+Arc = 329 ,  From = 102 ,  To = 110 ,  Longueur =    86.53 , Duree =    15.57 * 
+Arc = 330 ,  From = 103 ,  To =  89 ,  Longueur =   102.01 , Duree =    18.36 * 
+Arc = 331 ,  From = 103 ,  To =  90 ,  Longueur =   166.83 , Duree =    30.03 * 
+Arc = 332 ,  From = 103 ,  To = 102 ,  Longueur =   211.68 , Duree =    38.10 * 
+Arc = 333 ,  From = 103 ,  To = 104 ,  Longueur =   203.35 , Duree =    36.60 * 
+Arc = 334 ,  From = 103 ,  To = 111 ,  Longueur =    99.00 , Duree =    17.82 * 
+Arc = 335 ,  From = 104 ,  To =  90 ,  Longueur =   132.17 , Duree =    23.79 * 
+Arc = 336 ,  From = 104 ,  To =  91 ,  Longueur =    92.91 , Duree =    16.72 * 
+Arc = 337 ,  From = 104 ,  To = 103 ,  Longueur =   203.35 , Duree =    36.60 * 
+Arc = 338 ,  From = 104 ,  To = 122 ,  Longueur =   233.28 , Duree =    41.99 * 
+Arc = 339 ,  From = 105 ,  To =  93 ,  Longueur =   115.67 , Duree =    20.82 * 
+Arc = 340 ,  From = 105 ,  To = 104 ,  Longueur =   202.05 , Duree =    36.37 * 
+Arc = 341 ,  From = 106 ,  To = 107 ,  Longueur =    96.99 , Duree =    17.46 * 
+Arc = 342 ,  From = 106 ,  To = 112 ,  Longueur =   104.94 , Duree =    18.89 * 
+Arc = 343 ,  From = 107 ,  To =  94 ,  Longueur =   150.03 , Duree =    27.01 * 
+Arc = 344 ,  From = 107 ,  To =  95 ,  Longueur =   127.20 , Duree =    22.90 * 
+Arc = 345 ,  From = 107 ,  To = 106 ,  Longueur =    96.99 , Duree =    17.46 * 
+Arc = 346 ,  From = 107 ,  To = 108 ,  Longueur =   123.71 , Duree =    22.27 * 
+Arc = 347 ,  From = 107 ,  To = 112 ,  Longueur =   146.44 , Duree =    26.36 * 
+Arc = 348 ,  From = 107 ,  To = 114 ,  Longueur =   128.32 , Duree =    23.10 * 
+Arc = 349 ,  From = 108 ,  To =  96 ,  Longueur =    77.18 , Duree =    13.89 * 
+Arc = 350 ,  From = 108 ,  To = 107 ,  Longueur =   123.71 , Duree =    22.27 * 
+Arc = 351 ,  From = 109 ,  To = 100 ,  Longueur =   106.54 , Duree =    19.18 * 
+Arc = 352 ,  From = 109 ,  To = 110 ,  Longueur =   207.11 , Duree =    37.28 * 
+Arc = 353 ,  From = 110 ,  To = 109 ,  Longueur =   207.11 , Duree =    37.28 * 
+Arc = 354 ,  From = 110 ,  To = 111 ,  Longueur =   213.46 , Duree =    38.42 * 
+Arc = 355 ,  From = 111 ,  To = 110 ,  Longueur =   213.46 , Duree =    38.42 * 
+Arc = 356 ,  From = 111 ,  To = 120 ,  Longueur =   115.21 , Duree =    20.74 * 
+Arc = 357 ,  From = 112 ,  To = 132 ,  Longueur =   192.78 , Duree =    34.70 * 
+Arc = 358 ,  From = 113 ,  To = 107 ,  Longueur =    86.38 , Duree =    15.55 * 
+Arc = 359 ,  From = 113 ,  To = 112 ,  Longueur =   109.82 , Duree =    19.77 * 
+Arc = 360 ,  From = 113 ,  To = 114 ,  Longueur =    80.01 , Duree =    14.40 * 
+Arc = 361 ,  From = 114 ,  To = 108 ,  Longueur =   109.84 , Duree =    19.77 * 
+Arc = 362 ,  From = 114 ,  To = 134 ,  Longueur =   221.53 , Duree =    39.88 * 
+Arc = 363 ,  From = 115 ,  To =  98 ,  Longueur =   200.88 , Duree =    36.16 * 
+Arc = 364 ,  From = 115 ,  To = 114 ,  Longueur =   231.16 , Duree =    41.61 * 
+Arc = 365 ,  From = 115 ,  To = 116 ,  Longueur =   109.66 , Duree =    19.74 * 
+Arc = 366 ,  From = 115 ,  To = 125 ,  Longueur =   146.59 , Duree =    26.39 * 
+Arc = 367 ,  From = 115 ,  To = 134 ,  Longueur =   314.99 , Duree =    56.70 * 
+Arc = 368 ,  From = 115 ,  To = 136 ,  Longueur =   218.04 , Duree =    39.25 * 
+Arc = 369 ,  From = 116 ,  To =  99 ,  Longueur =   227.63 , Duree =    40.97 * 
+Arc = 370 ,  From = 117 ,  To = 109 ,  Longueur =   111.25 , Duree =    20.03 * 
+Arc = 371 ,  From = 117 ,  To = 116 ,  Longueur =   115.55 , Duree =    20.80 * 
+Arc = 372 ,  From = 117 ,  To = 118 ,  Longueur =   192.93 , Duree =    34.73 * 
+Arc = 373 ,  From = 117 ,  To = 125 ,  Longueur =   165.38 , Duree =    29.77 * 
+Arc = 374 ,  From = 118 ,  To = 110 ,  Longueur =   111.28 , Duree =    20.03 * 
+Arc = 375 ,  From = 118 ,  To = 119 ,  Longueur =   104.34 , Duree =    18.78 * 
+Arc = 376 ,  From = 118 ,  To = 126 ,  Longueur =   142.66 , Duree =    25.68 * 
+Arc = 377 ,  From = 118 ,  To = 127 ,  Longueur =   142.90 , Duree =    25.72 * 
+Arc = 378 ,  From = 118 ,  To = 140 ,  Longueur =   196.25 , Duree =    35.33 * 
+Arc = 379 ,  From = 119 ,  To = 118 ,  Longueur =   104.34 , Duree =    18.78 * 
+Arc = 380 ,  From = 119 ,  To = 120 ,  Longueur =   106.41 , Duree =    19.15 * 
+Arc = 381 ,  From = 119 ,  To = 127 ,  Longueur =    93.93 , Duree =    16.91 * 
+Arc = 382 ,  From = 120 ,  To = 111 ,  Longueur =   115.21 , Duree =    20.74 * 
+Arc = 383 ,  From = 120 ,  To = 119 ,  Longueur =   106.41 , Duree =    19.15 * 
+Arc = 384 ,  From = 120 ,  To = 121 ,  Longueur =   105.29 , Duree =    18.95 * 
+Arc = 385 ,  From = 120 ,  To = 127 ,  Longueur =   138.09 , Duree =    24.86 * 
+Arc = 386 ,  From = 120 ,  To = 128 ,  Longueur =    76.87 , Duree =    13.84 * 
+Arc = 387 ,  From = 120 ,  To = 129 ,  Longueur =   122.67 , Duree =    22.08 * 
+Arc = 388 ,  From = 121 ,  To = 122 ,  Longueur =   116.86 , Duree =    21.03 * 
+Arc = 389 ,  From = 121 ,  To = 129 ,  Longueur =   103.00 , Duree =    18.54 * 
+Arc = 390 ,  From = 122 ,  To = 104 ,  Longueur =   233.28 , Duree =    41.99 * 
+Arc = 391 ,  From = 122 ,  To = 130 ,  Longueur =   102.06 , Duree =    18.37 * 
+Arc = 392 ,  From = 123 ,  To = 105 ,  Longueur =   197.83 , Duree =    35.61 * 
+Arc = 393 ,  From = 123 ,  To = 122 ,  Longueur =   214.72 , Duree =    38.65 * 
+Arc = 394 ,  From = 124 ,  To = 113 ,  Longueur =   120.93 , Duree =    21.77 * 
+Arc = 395 ,  From = 124 ,  To = 114 ,  Longueur =   153.79 , Duree =    27.68 * 
+Arc = 396 ,  From = 124 ,  To = 132 ,  Longueur =   129.50 , Duree =    23.31 * 
+Arc = 397 ,  From = 125 ,  To = 115 ,  Longueur =   146.59 , Duree =    26.39 * 
+Arc = 398 ,  From = 125 ,  To = 136 ,  Longueur =   137.23 , Duree =    24.70 * 
+Arc = 399 ,  From = 125 ,  To = 138 ,  Longueur =   158.15 , Duree =    28.47 * 
+Arc = 400 ,  From = 126 ,  To = 117 ,  Longueur =   128.74 , Duree =    23.17 * 
+Arc = 401 ,  From = 126 ,  To = 118 ,  Longueur =   142.66 , Duree =    25.68 * 
+Arc = 402 ,  From = 126 ,  To = 138 ,  Longueur =   155.60 , Duree =    28.01 * 
+Arc = 403 ,  From = 126 ,  To = 140 ,  Longueur =   156.16 , Duree =    28.11 * 
+Arc = 404 ,  From = 127 ,  To = 118 ,  Longueur =   142.90 , Duree =    25.72 * 
+Arc = 405 ,  From = 127 ,  To = 120 ,  Longueur =   138.09 , Duree =    24.86 * 
+Arc = 406 ,  From = 127 ,  To = 140 ,  Longueur =   145.46 , Duree =    26.18 * 
+Arc = 407 ,  From = 127 ,  To = 141 ,  Longueur =    96.14 , Duree =    17.31 * 
+Arc = 408 ,  From = 127 ,  To = 142 ,  Longueur =   136.03 , Duree =    24.49 * 
+Arc = 409 ,  From = 128 ,  To = 120 ,  Longueur =    76.87 , Duree =    13.84 * 
+Arc = 410 ,  From = 128 ,  To = 129 ,  Longueur =   104.29 , Duree =    18.77 * 
+Arc = 411 ,  From = 128 ,  To = 142 ,  Longueur =   101.06 , Duree =    18.19 * 
+Arc = 412 ,  From = 129 ,  To = 121 ,  Longueur =   103.00 , Duree =    18.54 * 
+Arc = 413 ,  From = 129 ,  To = 128 ,  Longueur =   104.29 , Duree =    18.77 * 
+Arc = 414 ,  From = 129 ,  To = 130 ,  Longueur =   101.00 , Duree =    18.18 * 
+Arc = 415 ,  From = 129 ,  To = 143 ,  Longueur =   117.69 , Duree =    21.18 * 
+Arc = 416 ,  From = 129 ,  To = 144 ,  Longueur =   145.59 , Duree =    26.21 * 
+Arc = 417 ,  From = 130 ,  To = 122 ,  Longueur =   102.06 , Duree =    18.37 * 
+Arc = 418 ,  From = 130 ,  To = 129 ,  Longueur =   101.00 , Duree =    18.18 * 
+Arc = 419 ,  From = 130 ,  To = 131 ,  Longueur =   223.43 , Duree =    40.22 * 
+Arc = 420 ,  From = 131 ,  To = 123 ,  Longueur =    99.22 , Duree =    17.86 * 
+Arc = 421 ,  From = 131 ,  To = 146 ,  Longueur =   124.48 , Duree =    22.41 * 
+Arc = 422 ,  From = 132 ,  To = 124 ,  Longueur =   129.50 , Duree =    23.31 * 
+Arc = 423 ,  From = 132 ,  To = 133 ,  Longueur =   101.36 , Duree =    18.25 * 
+Arc = 424 ,  From = 132 ,  To = 147 ,  Longueur =    98.81 , Duree =    17.78 * 
+Arc = 425 ,  From = 132 ,  To = 148 ,  Longueur =   153.68 , Duree =    27.66 * 
+Arc = 426 ,  From = 133 ,  To = 124 ,  Longueur =    98.25 , Duree =    17.69 * 
+Arc = 427 ,  From = 133 ,  To = 148 ,  Longueur =    93.74 , Duree =    16.87 * 
+Arc = 428 ,  From = 134 ,  To = 115 ,  Longueur =   314.99 , Duree =    56.70 * 
+Arc = 429 ,  From = 134 ,  To = 133 ,  Longueur =   122.35 , Duree =    22.02 * 
+Arc = 430 ,  From = 134 ,  To = 135 ,  Longueur =    81.10 , Duree =    14.60 * 
+Arc = 431 ,  From = 134 ,  To = 149 ,  Longueur =    90.89 , Duree =    16.36 * 
+Arc = 432 ,  From = 135 ,  To = 136 ,  Longueur =   105.23 , Duree =    18.94 * 
+Arc = 433 ,  From = 136 ,  To = 115 ,  Longueur =   218.04 , Duree =    39.25 * 
+Arc = 434 ,  From = 136 ,  To = 137 ,  Longueur =   104.03 , Duree =    18.73 * 
+Arc = 435 ,  From = 136 ,  To = 150 ,  Longueur =   100.40 , Duree =    18.07 * 
+Arc = 436 ,  From = 137 ,  To = 136 ,  Longueur =   104.03 , Duree =    18.73 * 
+Arc = 437 ,  From = 138 ,  To = 117 ,  Longueur =   208.26 , Duree =    37.49 * 
+Arc = 438 ,  From = 138 ,  To = 125 ,  Longueur =   158.15 , Duree =    28.47 * 
+Arc = 439 ,  From = 138 ,  To = 126 ,  Longueur =   155.60 , Duree =    28.01 * 
+Arc = 440 ,  From = 138 ,  To = 137 ,  Longueur =   112.02 , Duree =    20.16 * 
+Arc = 441 ,  From = 138 ,  To = 139 ,  Longueur =   107.27 , Duree =    19.31 * 
+Arc = 442 ,  From = 138 ,  To = 152 ,  Longueur =    85.68 , Duree =    15.42 * 
+Arc = 443 ,  From = 138 ,  To = 153 ,  Longueur =   148.69 , Duree =    26.76 * 
+Arc = 444 ,  From = 139 ,  To = 138 ,  Longueur =   107.27 , Duree =    19.31 * 
+Arc = 445 ,  From = 139 ,  To = 140 ,  Longueur =    96.59 , Duree =    17.39 * 
+Arc = 446 ,  From = 140 ,  To = 118 ,  Longueur =   196.25 , Duree =    35.33 * 
+Arc = 447 ,  From = 140 ,  To = 126 ,  Longueur =   156.16 , Duree =    28.11 * 
+Arc = 448 ,  From = 140 ,  To = 127 ,  Longueur =   145.46 , Duree =    26.18 * 
+Arc = 449 ,  From = 140 ,  To = 139 ,  Longueur =    96.59 , Duree =    17.39 * 
+Arc = 450 ,  From = 140 ,  To = 141 ,  Longueur =   112.38 , Duree =    20.23 * 
+Arc = 451 ,  From = 140 ,  To = 153 ,  Longueur =   165.03 , Duree =    29.70 * 
+Arc = 452 ,  From = 140 ,  To = 154 ,  Longueur =    95.62 , Duree =    17.21 * 
+Arc = 453 ,  From = 141 ,  To = 127 ,  Longueur =    96.14 , Duree =    17.31 * 
+Arc = 454 ,  From = 141 ,  To = 142 ,  Longueur =   107.12 , Duree =    19.28 * 
+Arc = 455 ,  From = 142 ,  To = 127 ,  Longueur =   136.03 , Duree =    24.49 * 
+Arc = 456 ,  From = 142 ,  To = 128 ,  Longueur =   101.06 , Duree =    18.19 * 
+Arc = 457 ,  From = 142 ,  To = 143 ,  Longueur =   106.24 , Duree =    19.12 * 
+Arc = 458 ,  From = 143 ,  To = 142 ,  Longueur =   106.24 , Duree =    19.12 * 
+Arc = 459 ,  From = 143 ,  To = 144 ,  Longueur =    93.40 , Duree =    16.81 * 
+Arc = 460 ,  From = 144 ,  To = 130 ,  Longueur =    86.68 , Duree =    15.60 * 
+Arc = 461 ,  From = 144 ,  To = 143 ,  Longueur =    93.40 , Duree =    16.81 * 
+Arc = 462 ,  From = 144 ,  To = 145 ,  Longueur =   120.95 , Duree =    21.77 * 
+Arc = 463 ,  From = 144 ,  To = 155 ,  Longueur =   141.96 , Duree =    25.55 * 
+Arc = 464 ,  From = 144 ,  To = 157 ,  Longueur =   178.65 , Duree =    32.16 * 
+Arc = 465 ,  From = 145 ,  To = 144 ,  Longueur =   120.95 , Duree =    21.77 * 
+Arc = 466 ,  From = 145 ,  To = 146 ,  Longueur =   105.43 , Duree =    18.98 * 
+Arc = 467 ,  From = 146 ,  To = 145 ,  Longueur =   105.43 , Duree =    18.98 * 
+Arc = 468 ,  From = 146 ,  To = 157 ,  Longueur =   158.78 , Duree =    28.58 * 
+Arc = 469 ,  From = 146 ,  To = 158 ,  Longueur =    99.93 , Duree =    17.99 * 
+Arc = 470 ,  From = 147 ,  To = 132 ,  Longueur =    98.81 , Duree =    17.78 * 
+Arc = 471 ,  From = 147 ,  To = 159 ,  Longueur =   106.12 , Duree =    19.10 * 
+Arc = 472 ,  From = 148 ,  To = 132 ,  Longueur =   153.68 , Duree =    27.66 * 
+Arc = 473 ,  From = 148 ,  To = 147 ,  Longueur =   107.10 , Duree =    19.28 * 
+Arc = 474 ,  From = 148 ,  To = 149 ,  Longueur =    95.52 , Duree =    17.19 * 
+Arc = 475 ,  From = 148 ,  To = 160 ,  Longueur =   126.21 , Duree =    22.72 * 
+Arc = 476 ,  From = 148 ,  To = 161 ,  Longueur =   160.68 , Duree =    28.92 * 
+Arc = 477 ,  From = 149 ,  To = 148 ,  Longueur =    95.52 , Duree =    17.19 * 
+Arc = 478 ,  From = 149 ,  To = 161 ,  Longueur =   105.06 , Duree =    18.91 * 
+Arc = 479 ,  From = 150 ,  To = 136 ,  Longueur =   100.40 , Duree =    18.07 * 
+Arc = 480 ,  From = 150 ,  To = 151 ,  Longueur =   120.62 , Duree =    21.71 * 
+Arc = 481 ,  From = 150 ,  To = 163 ,  Longueur =   125.62 , Duree =    22.61 * 
+Arc = 482 ,  From = 151 ,  To = 136 ,  Longueur =   149.31 , Duree =    26.88 * 
+Arc = 483 ,  From = 151 ,  To = 137 ,  Longueur =   110.22 , Duree =    19.84 * 
+Arc = 484 ,  From = 151 ,  To = 150 ,  Longueur =   120.62 , Duree =    21.71 * 
+Arc = 485 ,  From = 151 ,  To = 152 ,  Longueur =   106.19 , Duree =    19.11 * 
+Arc = 486 ,  From = 151 ,  To = 164 ,  Longueur =    93.84 , Duree =    16.89 * 
+Arc = 487 ,  From = 151 ,  To = 165 ,  Longueur =   150.70 , Duree =    27.13 * 
+Arc = 488 ,  From = 152 ,  To = 153 ,  Longueur =   102.45 , Duree =    18.44 * 
+Arc = 489 ,  From = 152 ,  To = 165 ,  Longueur =   117.74 , Duree =    21.19 * 
+Arc = 490 ,  From = 153 ,  To = 138 ,  Longueur =   148.69 , Duree =    26.76 * 
+Arc = 491 ,  From = 153 ,  To = 139 ,  Longueur =   116.28 , Duree =    20.93 * 
+Arc = 492 ,  From = 153 ,  To = 140 ,  Longueur =   165.03 , Duree =    29.70 * 
+Arc = 493 ,  From = 153 ,  To = 165 ,  Longueur =   144.48 , Duree =    26.01 * 
+Arc = 494 ,  From = 153 ,  To = 166 ,  Longueur =    87.23 , Duree =    15.70 * 
+Arc = 495 ,  From = 154 ,  To = 153 ,  Longueur =   122.94 , Duree =    22.13 * 
+Arc = 496 ,  From = 154 ,  To = 167 ,  Longueur =   128.66 , Duree =    23.16 * 
+Arc = 497 ,  From = 155 ,  To = 143 ,  Longueur =   100.70 , Duree =    18.13 * 
+Arc = 498 ,  From = 155 ,  To = 168 ,  Longueur =   159.50 , Duree =    28.71 * 
+Arc = 499 ,  From = 155 ,  To = 169 ,  Longueur =   113.16 , Duree =    20.37 * 
+Arc = 500 ,  From = 156 ,  To = 144 ,  Longueur =   114.17 , Duree =    20.55 * 
+Arc = 501 ,  From = 156 ,  To = 157 ,  Longueur =    88.00 , Duree =    15.84 * 
+Arc = 502 ,  From = 157 ,  To = 144 ,  Longueur =   178.65 , Duree =    32.16 * 
+Arc = 503 ,  From = 157 ,  To = 145 ,  Longueur =   112.68 , Duree =    20.28 * 
+Arc = 504 ,  From = 157 ,  To = 146 ,  Longueur =   158.78 , Duree =    28.58 * 
+Arc = 505 ,  From = 157 ,  To = 156 ,  Longueur =    88.00 , Duree =    15.84 * 
+Arc = 506 ,  From = 157 ,  To = 158 ,  Longueur =   113.48 , Duree =    20.43 * 
+Arc = 507 ,  From = 157 ,  To = 170 ,  Longueur =   130.84 , Duree =    23.55 * 
+Arc = 508 ,  From = 157 ,  To = 171 ,  Longueur =   103.12 , Duree =    18.56 * 
+Arc = 509 ,  From = 157 ,  To = 172 ,  Longueur =   155.45 , Duree =    27.98 * 
+Arc = 510 ,  From = 158 ,  To = 157 ,  Longueur =   113.48 , Duree =    20.43 * 
+Arc = 511 ,  From = 159 ,  To = 147 ,  Longueur =   106.12 , Duree =    19.10 * 
+Arc = 512 ,  From = 159 ,  To = 185 ,  Longueur =   216.31 , Duree =    38.94 * 
+Arc = 513 ,  From = 160 ,  To = 148 ,  Longueur =   126.21 , Duree =    22.72 * 
+Arc = 514 ,  From = 160 ,  To = 159 ,  Longueur =    95.52 , Duree =    17.19 * 
+Arc = 515 ,  From = 160 ,  To = 161 ,  Longueur =   114.83 , Duree =    20.67 * 
+Arc = 516 ,  From = 161 ,  To = 149 ,  Longueur =   105.06 , Duree =    18.91 * 
+Arc = 517 ,  From = 161 ,  To = 160 ,  Longueur =   114.83 , Duree =    20.67 * 
+Arc = 518 ,  From = 161 ,  To = 162 ,  Longueur =   118.24 , Duree =    21.28 * 
+Arc = 519 ,  From = 161 ,  To = 173 ,  Longueur =    96.25 , Duree =    17.33 * 
+Arc = 520 ,  From = 161 ,  To = 174 ,  Longueur =   138.59 , Duree =    24.95 * 
+Arc = 521 ,  From = 162 ,  To = 135 ,  Longueur =   193.71 , Duree =    34.87 * 
+Arc = 522 ,  From = 162 ,  To = 161 ,  Longueur =   118.24 , Duree =    21.28 * 
+Arc = 523 ,  From = 162 ,  To = 163 ,  Longueur =    97.48 , Duree =    17.55 * 
+Arc = 524 ,  From = 163 ,  To = 150 ,  Longueur =   125.62 , Duree =    22.61 * 
+Arc = 525 ,  From = 163 ,  To = 164 ,  Longueur =    99.95 , Duree =    17.99 * 
+Arc = 526 ,  From = 163 ,  To = 176 ,  Longueur =   120.02 , Duree =    21.60 * 
+Arc = 527 ,  From = 164 ,  To = 163 ,  Longueur =    99.95 , Duree =    17.99 * 
+Arc = 528 ,  From = 165 ,  To = 151 ,  Longueur =   150.70 , Duree =    27.13 * 
+Arc = 529 ,  From = 165 ,  To = 152 ,  Longueur =   117.74 , Duree =    21.19 * 
+Arc = 530 ,  From = 165 ,  To = 153 ,  Longueur =   144.48 , Duree =    26.01 * 
+Arc = 531 ,  From = 165 ,  To = 164 ,  Longueur =   108.58 , Duree =    19.54 * 
+Arc = 532 ,  From = 165 ,  To = 166 ,  Longueur =   103.26 , Duree =    18.59 * 
+Arc = 533 ,  From = 165 ,  To = 177 ,  Longueur =   114.66 , Duree =    20.64 * 
+Arc = 534 ,  From = 166 ,  To = 167 ,  Longueur =    99.74 , Duree =    17.95 * 
+Arc = 535 ,  From = 167 ,  To = 142 ,  Longueur =   319.53 , Duree =    57.51 * 
+Arc = 536 ,  From = 167 ,  To = 153 ,  Longueur =   142.04 , Duree =    25.57 * 
+Arc = 537 ,  From = 167 ,  To = 166 ,  Longueur =    99.74 , Duree =    17.95 * 
+Arc = 538 ,  From = 167 ,  To = 168 ,  Longueur =   223.07 , Duree =    40.15 * 
+Arc = 539 ,  From = 167 ,  To = 178 ,  Longueur =    85.57 , Duree =    15.40 * 
+Arc = 540 ,  From = 168 ,  To = 142 ,  Longueur =   216.30 , Duree =    38.93 * 
+Arc = 541 ,  From = 168 ,  To = 167 ,  Longueur =   223.07 , Duree =    40.15 * 
+Arc = 542 ,  From = 168 ,  To = 169 ,  Longueur =   101.89 , Duree =    18.34 * 
+Arc = 543 ,  From = 168 ,  To = 179 ,  Longueur =   129.43 , Duree =    23.30 * 
+Arc = 544 ,  From = 168 ,  To = 180 ,  Longueur =   112.32 , Duree =    20.22 * 
+Arc = 545 ,  From = 169 ,  To = 155 ,  Longueur =   113.16 , Duree =    20.37 * 
+Arc = 546 ,  From = 169 ,  To = 168 ,  Longueur =   101.89 , Duree =    18.34 * 
+Arc = 547 ,  From = 169 ,  To = 170 ,  Longueur =   107.56 , Duree =    19.36 * 
+Arc = 548 ,  From = 169 ,  To = 181 ,  Longueur =    78.92 , Duree =    14.21 * 
+Arc = 549 ,  From = 170 ,  To = 156 ,  Longueur =   108.88 , Duree =    19.60 * 
+Arc = 550 ,  From = 170 ,  To = 157 ,  Longueur =   130.84 , Duree =    23.55 * 
+Arc = 551 ,  From = 170 ,  To = 169 ,  Longueur =   107.56 , Duree =    19.36 * 
+Arc = 552 ,  From = 170 ,  To = 171 ,  Longueur =   113.77 , Duree =    20.48 * 
+Arc = 553 ,  From = 171 ,  To = 157 ,  Longueur =   103.12 , Duree =    18.56 * 
+Arc = 554 ,  From = 171 ,  To = 170 ,  Longueur =   113.77 , Duree =    20.48 * 
+Arc = 555 ,  From = 171 ,  To = 172 ,  Longueur =   105.74 , Duree =    19.03 * 
+Arc = 556 ,  From = 171 ,  To = 183 ,  Longueur =    99.82 , Duree =    17.97 * 
+Arc = 557 ,  From = 172 ,  To = 157 ,  Longueur =   155.45 , Duree =    27.98 * 
+Arc = 558 ,  From = 172 ,  To = 158 ,  Longueur =   116.26 , Duree =    20.93 * 
+Arc = 559 ,  From = 172 ,  To = 171 ,  Longueur =   105.74 , Duree =    19.03 * 
+Arc = 560 ,  From = 172 ,  To = 183 ,  Longueur =   159.11 , Duree =    28.64 * 
+Arc = 561 ,  From = 173 ,  To = 161 ,  Longueur =    96.25 , Duree =    17.33 * 
+Arc = 562 ,  From = 174 ,  To = 163 ,  Longueur =   152.58 , Duree =    27.46 * 
+Arc = 563 ,  From = 174 ,  To = 173 ,  Longueur =   124.38 , Duree =    22.39 * 
+Arc = 564 ,  From = 174 ,  To = 175 ,  Longueur =   100.08 , Duree =    18.01 * 
+Arc = 565 ,  From = 174 ,  To = 187 ,  Longueur =   141.41 , Duree =    25.45 * 
+Arc = 566 ,  From = 174 ,  To = 188 ,  Longueur =   147.08 , Duree =    26.47 * 
+Arc = 567 ,  From = 175 ,  To = 163 ,  Longueur =   106.84 , Duree =    19.23 * 
+Arc = 568 ,  From = 175 ,  To = 174 ,  Longueur =   100.08 , Duree =    18.01 * 
+Arc = 569 ,  From = 175 ,  To = 176 ,  Longueur =    92.49 , Duree =    16.65 * 
+Arc = 570 ,  From = 176 ,  To = 163 ,  Longueur =   120.02 , Duree =    21.60 * 
+Arc = 571 ,  From = 176 ,  To = 165 ,  Longueur =   148.97 , Duree =    26.81 * 
+Arc = 572 ,  From = 176 ,  To = 175 ,  Longueur =    92.49 , Duree =    16.65 * 
+Arc = 573 ,  From = 176 ,  To = 177 ,  Longueur =   102.95 , Duree =    18.53 * 
+Arc = 574 ,  From = 176 ,  To = 188 ,  Longueur =   146.40 , Duree =    26.35 * 
+Arc = 575 ,  From = 177 ,  To = 189 ,  Longueur =    88.21 , Duree =    15.88 * 
+Arc = 576 ,  From = 178 ,  To = 177 ,  Longueur =   223.44 , Duree =    40.22 * 
+Arc = 577 ,  From = 178 ,  To = 179 ,  Longueur =   115.44 , Duree =    20.78 * 
+Arc = 578 ,  From = 179 ,  To = 168 ,  Longueur =   129.43 , Duree =    23.30 * 
+Arc = 579 ,  From = 179 ,  To = 178 ,  Longueur =   115.44 , Duree =    20.78 * 
+Arc = 580 ,  From = 179 ,  To = 180 ,  Longueur =    88.39 , Duree =    15.91 * 
+Arc = 581 ,  From = 179 ,  To = 191 ,  Longueur =   156.17 , Duree =    28.11 * 
+Arc = 582 ,  From = 180 ,  To = 181 ,  Longueur =   113.63 , Duree =    20.45 * 
+Arc = 583 ,  From = 180 ,  To = 193 ,  Longueur =    94.85 , Duree =    17.07 * 
+Arc = 584 ,  From = 181 ,  To = 169 ,  Longueur =    78.92 , Duree =    14.21 * 
+Arc = 585 ,  From = 181 ,  To = 170 ,  Longueur =   130.18 , Duree =    23.43 * 
+Arc = 586 ,  From = 181 ,  To = 180 ,  Longueur =   113.63 , Duree =    20.45 * 
+Arc = 587 ,  From = 181 ,  To = 182 ,  Longueur =    98.04 , Duree =    17.65 * 
+Arc = 588 ,  From = 181 ,  To = 194 ,  Longueur =   130.56 , Duree =    23.50 * 
+Arc = 589 ,  From = 182 ,  To = 170 ,  Longueur =    99.75 , Duree =    17.95 * 
+Arc = 590 ,  From = 182 ,  To = 183 ,  Longueur =   109.98 , Duree =    19.80 * 
+Arc = 591 ,  From = 182 ,  To = 195 ,  Longueur =   131.27 , Duree =    23.63 * 
+Arc = 592 ,  From = 183 ,  To = 171 ,  Longueur =    99.82 , Duree =    17.97 * 
+Arc = 593 ,  From = 183 ,  To = 172 ,  Longueur =   159.11 , Duree =    28.64 * 
+Arc = 594 ,  From = 183 ,  To = 184 ,  Longueur =   110.63 , Duree =    19.91 * 
+Arc = 595 ,  From = 183 ,  To = 195 ,  Longueur =   148.89 , Duree =    26.80 * 
+Arc = 596 ,  From = 183 ,  To = 196 ,  Longueur =    96.51 , Duree =    17.37 * 
+Arc = 597 ,  From = 184 ,  To = 172 ,  Longueur =    89.27 , Duree =    16.07 * 
+Arc = 598 ,  From = 184 ,  To = 197 ,  Longueur =   108.09 , Duree =    19.46 * 
+Arc = 599 ,  From = 185 ,  To = 159 ,  Longueur =   216.31 , Duree =    38.94 * 
+Arc = 600 ,  From = 185 ,  To = 186 ,  Longueur =   111.45 , Duree =    20.06 * 
+Arc = 601 ,  From = 185 ,  To = 198 ,  Longueur =   155.18 , Duree =    27.93 * 
+Arc = 602 ,  From = 185 ,  To = 211 ,  Longueur =   230.24 , Duree =    41.44 * 
+Arc = 603 ,  From = 186 ,  To = 160 ,  Longueur =   195.19 , Duree =    35.13 * 
+Arc = 604 ,  From = 186 ,  To = 185 ,  Longueur =   111.45 , Duree =    20.06 * 
+Arc = 605 ,  From = 186 ,  To = 187 ,  Longueur =    97.33 , Duree =    17.52 * 
+Arc = 606 ,  From = 186 ,  To = 198 ,  Longueur =   130.87 , Duree =    23.56 * 
+Arc = 607 ,  From = 187 ,  To = 173 ,  Longueur =   114.34 , Duree =    20.58 * 
+Arc = 608 ,  From = 187 ,  To = 174 ,  Longueur =   141.41 , Duree =    25.45 * 
+Arc = 609 ,  From = 187 ,  To = 186 ,  Longueur =    97.33 , Duree =    17.52 * 
+Arc = 610 ,  From = 187 ,  To = 199 ,  Longueur =   111.25 , Duree =    20.03 * 
+Arc = 611 ,  From = 188 ,  To = 174 ,  Longueur =   147.08 , Duree =    26.47 * 
+Arc = 612 ,  From = 188 ,  To = 175 ,  Longueur =   101.76 , Duree =    18.32 * 
+Arc = 613 ,  From = 188 ,  To = 176 ,  Longueur =   146.40 , Duree =    26.35 * 
+Arc = 614 ,  From = 188 ,  To = 187 ,  Longueur =   204.01 , Duree =    36.72 * 
+Arc = 615 ,  From = 188 ,  To = 200 ,  Longueur =   144.97 , Duree =    26.10 * 
+Arc = 616 ,  From = 188 ,  To = 201 ,  Longueur =   112.48 , Duree =    20.25 * 
+Arc = 617 ,  From = 189 ,  To = 176 ,  Longueur =   152.17 , Duree =    27.39 * 
+Arc = 618 ,  From = 189 ,  To = 188 ,  Longueur =   192.09 , Duree =    34.58 * 
+Arc = 619 ,  From = 189 ,  To = 190 ,  Longueur =   124.54 , Duree =    22.42 * 
+Arc = 620 ,  From = 189 ,  To = 202 ,  Longueur =   135.54 , Duree =    24.40 * 
+Arc = 621 ,  From = 189 ,  To = 203 ,  Longueur =   134.81 , Duree =    24.27 * 
+Arc = 622 ,  From = 190 ,  To = 191 ,  Longueur =   125.88 , Duree =    22.66 * 
+Arc = 623 ,  From = 190 ,  To = 204 ,  Longueur =   124.47 , Duree =    22.40 * 
+Arc = 624 ,  From = 191 ,  To = 178 ,  Longueur =   121.72 , Duree =    21.91 * 
+Arc = 625 ,  From = 191 ,  To = 179 ,  Longueur =   156.17 , Duree =    28.11 * 
+Arc = 626 ,  From = 191 ,  To = 190 ,  Longueur =   125.88 , Duree =    22.66 * 
+Arc = 627 ,  From = 191 ,  To = 192 ,  Longueur =    91.54 , Duree =    16.48 * 
+Arc = 628 ,  From = 191 ,  To = 205 ,  Longueur =    94.77 , Duree =    17.06 * 
+Arc = 629 ,  From = 191 ,  To = 206 ,  Longueur =   139.79 , Duree =    25.16 * 
+Arc = 630 ,  From = 192 ,  To = 191 ,  Longueur =    91.54 , Duree =    16.48 * 
+Arc = 631 ,  From = 192 ,  To = 193 ,  Longueur =    97.13 , Duree =    17.48 * 
+Arc = 632 ,  From = 192 ,  To = 206 ,  Longueur =   104.00 , Duree =    18.72 * 
+Arc = 633 ,  From = 193 ,  To = 180 ,  Longueur =    94.85 , Duree =    17.07 * 
+Arc = 634 ,  From = 193 ,  To = 181 ,  Longueur =   171.96 , Duree =    30.95 * 
+Arc = 635 ,  From = 193 ,  To = 192 ,  Longueur =    97.13 , Duree =    17.48 * 
+Arc = 636 ,  From = 193 ,  To = 194 ,  Longueur =   128.40 , Duree =    23.11 * 
+Arc = 637 ,  From = 193 ,  To = 206 ,  Longueur =   148.07 , Duree =    26.65 * 
+Arc = 638 ,  From = 193 ,  To = 207 ,  Longueur =   124.50 , Duree =    22.41 * 
+Arc = 639 ,  From = 193 ,  To = 208 ,  Longueur =   144.90 , Duree =    26.08 * 
+Arc = 640 ,  From = 194 ,  To = 181 ,  Longueur =   130.56 , Duree =    23.50 * 
+Arc = 641 ,  From = 194 ,  To = 193 ,  Longueur =   128.40 , Duree =    23.11 * 
+Arc = 642 ,  From = 194 ,  To = 195 ,  Longueur =   104.81 , Duree =    18.87 * 
+Arc = 643 ,  From = 195 ,  To = 194 ,  Longueur =   104.81 , Duree =    18.87 * 
+Arc = 644 ,  From = 195 ,  To = 208 ,  Longueur =   139.09 , Duree =    25.04 * 
+Arc = 645 ,  From = 196 ,  To = 195 ,  Longueur =   101.87 , Duree =    18.34 * 
+Arc = 646 ,  From = 196 ,  To = 197 ,  Longueur =   110.25 , Duree =    19.84 * 
+Arc = 647 ,  From = 197 ,  To = 210 ,  Longueur =   109.22 , Duree =    19.66 * 
+Arc = 648 ,  From = 198 ,  To = 185 ,  Longueur =   155.18 , Duree =    27.93 * 
+Arc = 649 ,  From = 198 ,  To = 213 ,  Longueur =   139.34 , Duree =    25.08 * 
+Arc = 650 ,  From = 199 ,  To = 187 ,  Longueur =   111.25 , Duree =    20.03 * 
+Arc = 651 ,  From = 199 ,  To = 200 ,  Longueur =   109.38 , Duree =    19.69 * 
+Arc = 652 ,  From = 199 ,  To = 213 ,  Longueur =    95.88 , Duree =    17.26 * 
+Arc = 653 ,  From = 200 ,  To = 199 ,  Longueur =   109.38 , Duree =    19.69 * 
+Arc = 654 ,  From = 200 ,  To = 201 ,  Longueur =   104.64 , Duree =    18.84 * 
+Arc = 655 ,  From = 200 ,  To = 213 ,  Longueur =   142.12 , Duree =    25.58 * 
+Arc = 656 ,  From = 201 ,  To = 188 ,  Longueur =   112.48 , Duree =    20.25 * 
+Arc = 657 ,  From = 201 ,  To = 200 ,  Longueur =   104.64 , Duree =    18.84 * 
+Arc = 658 ,  From = 201 ,  To = 202 ,  Longueur =   115.14 , Duree =    20.73 * 
+Arc = 659 ,  From = 201 ,  To = 214 ,  Longueur =    98.53 , Duree =    17.74 * 
+Arc = 660 ,  From = 202 ,  To = 189 ,  Longueur =   135.54 , Duree =    24.40 * 
+Arc = 661 ,  From = 202 ,  To = 201 ,  Longueur =   115.14 , Duree =    20.73 * 
+Arc = 662 ,  From = 202 ,  To = 203 ,  Longueur =   111.38 , Duree =    20.05 * 
+Arc = 663 ,  From = 202 ,  To = 214 ,  Longueur =   170.64 , Duree =    30.72 * 
+Arc = 664 ,  From = 203 ,  To = 202 ,  Longueur =   111.38 , Duree =    20.05 * 
+Arc = 665 ,  From = 203 ,  To = 204 ,  Longueur =   102.39 , Duree =    18.43 * 
+Arc = 666 ,  From = 203 ,  To = 215 ,  Longueur =    79.85 , Duree =    14.37 * 
+Arc = 667 ,  From = 204 ,  To = 190 ,  Longueur =   124.47 , Duree =    22.40 * 
+Arc = 668 ,  From = 204 ,  To = 205 ,  Longueur =   122.09 , Duree =    21.98 * 
+Arc = 669 ,  From = 205 ,  To = 204 ,  Longueur =   122.09 , Duree =    21.98 * 
+Arc = 670 ,  From = 205 ,  To = 206 ,  Longueur =   108.10 , Duree =    19.46 * 
+Arc = 671 ,  From = 205 ,  To = 217 ,  Longueur =   100.72 , Duree =    18.13 * 
+Arc = 672 ,  From = 206 ,  To = 192 ,  Longueur =   104.00 , Duree =    18.72 * 
+Arc = 673 ,  From = 206 ,  To = 193 ,  Longueur =   148.07 , Duree =    26.65 * 
+Arc = 674 ,  From = 206 ,  To = 207 ,  Longueur =   106.01 , Duree =    19.08 * 
+Arc = 675 ,  From = 206 ,  To = 217 ,  Longueur =   138.41 , Duree =    24.91 * 
+Arc = 676 ,  From = 206 ,  To = 218 ,  Longueur =    88.07 , Duree =    15.85 * 
+Arc = 677 ,  From = 206 ,  To = 219 ,  Longueur =   141.19 , Duree =    25.41 * 
+Arc = 678 ,  From = 207 ,  To = 206 ,  Longueur =   106.01 , Duree =    19.08 * 
+Arc = 679 ,  From = 207 ,  To = 208 ,  Longueur =    85.62 , Duree =    15.41 * 
+Arc = 680 ,  From = 207 ,  To = 219 ,  Longueur =    73.06 , Duree =    13.15 * 
+Arc = 681 ,  From = 208 ,  To = 193 ,  Longueur =   144.90 , Duree =    26.08 * 
+Arc = 682 ,  From = 208 ,  To = 195 ,  Longueur =   139.09 , Duree =    25.04 * 
+Arc = 683 ,  From = 208 ,  To = 209 ,  Longueur =   111.64 , Duree =    20.09 * 
+Arc = 684 ,  From = 208 ,  To = 219 ,  Longueur =   126.88 , Duree =    22.84 * 
+Arc = 685 ,  From = 209 ,  To = 195 ,  Longueur =    98.32 , Duree =    17.70 * 
+Arc = 686 ,  From = 209 ,  To = 220 ,  Longueur =    98.65 , Duree =    17.76 * 
+Arc = 687 ,  From = 210 ,  To = 197 ,  Longueur =   109.22 , Duree =    19.66 * 
+Arc = 688 ,  From = 210 ,  To = 209 ,  Longueur =   213.15 , Duree =    38.37 * 
+Arc = 689 ,  From = 210 ,  To = 221 ,  Longueur =   105.00 , Duree =    18.90 * 
+Arc = 690 ,  From = 211 ,  To = 212 ,  Longueur =    94.43 , Duree =    17.00 * 
+Arc = 691 ,  From = 212 ,  To = 198 ,  Longueur =    99.89 , Duree =    17.98 * 
+Arc = 692 ,  From = 213 ,  To = 198 ,  Longueur =   139.34 , Duree =    25.08 * 
+Arc = 693 ,  From = 213 ,  To = 199 ,  Longueur =    95.88 , Duree =    17.26 * 
+Arc = 694 ,  From = 213 ,  To = 200 ,  Longueur =   142.12 , Duree =    25.58 * 
+Arc = 695 ,  From = 213 ,  To = 212 ,  Longueur =   115.67 , Duree =    20.82 * 
+Arc = 696 ,  From = 213 ,  To = 214 ,  Longueur =   212.94 , Duree =    38.33 * 
+Arc = 697 ,  From = 214 ,  To = 213 ,  Longueur =   212.94 , Duree =    38.33 * 
+Arc = 698 ,  From = 214 ,  To = 215 ,  Longueur =   204.03 , Duree =    36.73 * 
+Arc = 699 ,  From = 215 ,  To = 203 ,  Longueur =    79.85 , Duree =    14.37 * 
+Arc = 700 ,  From = 215 ,  To = 214 ,  Longueur =   204.03 , Duree =    36.73 * 
+Arc = 701 ,  From = 215 ,  To = 216 ,  Longueur =    98.10 , Duree =    17.66 * 
+Arc = 702 ,  From = 216 ,  To = 204 ,  Longueur =    75.00 , Duree =    13.50 * 
+Arc = 703 ,  From = 216 ,  To = 215 ,  Longueur =    98.10 , Duree =    17.66 * 
+Arc = 704 ,  From = 216 ,  To = 217 ,  Longueur =   107.83 , Duree =    19.41 * 
+Arc = 705 ,  From = 217 ,  To = 205 ,  Longueur =   100.72 , Duree =    18.13 * 
+Arc = 706 ,  From = 217 ,  To = 206 ,  Longueur =   138.41 , Duree =    24.91 * 
+Arc = 707 ,  From = 217 ,  To = 216 ,  Longueur =   107.83 , Duree =    19.41 * 
+Arc = 708 ,  From = 217 ,  To = 218 ,  Longueur =    99.21 , Duree =    17.86 * 
+Arc = 709 ,  From = 218 ,  To = 206 ,  Longueur =    88.07 , Duree =    15.85 * 
+Arc = 710 ,  From = 218 ,  To = 217 ,  Longueur =    99.21 , Duree =    17.86 * 
+Arc = 711 ,  From = 218 ,  To = 219 ,  Longueur =   120.15 , Duree =    21.63 * 
+Arc = 712 ,  From = 219 ,  To = 206 ,  Longueur =   141.19 , Duree =    25.41 * 
+Arc = 713 ,  From = 219 ,  To = 208 ,  Longueur =   126.88 , Duree =    22.84 * 
+Arc = 714 ,  From = 219 ,  To = 218 ,  Longueur =   120.15 , Duree =    21.63 * 
+Arc = 715 ,  From = 219 ,  To = 220 ,  Longueur =   207.73 , Duree =    37.39 * 
+Arc = 716 ,  From = 220 ,  To = 208 ,  Longueur =   167.59 , Duree =    30.17 * 
+Arc = 717 ,  From = 220 ,  To = 219 ,  Longueur =   207.73 , Duree =    37.39 * 
+Arc = 718 ,  From = 220 ,  To = 221 ,  Longueur =   210.64 , Duree =    37.92 * 
+Arc = 719 ,  From = 221 ,  To = 210 ,  Longueur =   105.00 , Duree =    18.90 * 
+Arc = 720 ,  From = 221 ,  To = 220 ,  Longueur =   210.64 , Duree =    37.92 * 
+
+// List Of Task Nodes
+Noeud =   1 ,  Rank =   5 ,  Qty = 454 ,  Duree =     4.54 *  
+Noeud =   2 ,  Rank =   6 ,  Qty = 478 ,  Duree =     4.78 *  
+Noeud =   3 ,  Rank =  11 ,  Qty = 264 ,  Duree =     2.64 *  
+Noeud =   4 ,  Rank =  14 ,  Qty = 232 ,  Duree =     2.32 *  
+Noeud =   5 ,  Rank =  15 ,  Qty = 374 ,  Duree =     3.74 *  
+Noeud =   6 ,  Rank =  17 ,  Qty = 466 ,  Duree =     4.66 *  
+Noeud =   7 ,  Rank =  21 ,  Qty = 491 ,  Duree =     4.91 *  
+Noeud =   8 ,  Rank =  22 ,  Qty = 428 ,  Duree =     4.28 *  
+Noeud =   9 ,  Rank =  23 ,  Qty = 451 ,  Duree =     4.51 *  
+Noeud =  10 ,  Rank =  24 ,  Qty = 181 ,  Duree =     1.81 *  
+Noeud =  11 ,  Rank =  25 ,  Qty = 292 ,  Duree =     2.92 *  
+Noeud =  12 ,  Rank =  29 ,  Qty = 273 ,  Duree =     2.73 *  
+Noeud =  13 ,  Rank =  30 ,  Qty =  58 ,  Duree =     0.58 *  
+Noeud =  14 ,  Rank =  38 ,  Qty = 130 ,  Duree =     1.30 *  
+Noeud =  15 ,  Rank =  40 ,  Qty = 308 ,  Duree =     3.08 *  
+Noeud =  16 ,  Rank =  42 ,  Qty = 207 ,  Duree =     2.07 *  
+Noeud =  17 ,  Rank =  43 ,  Qty = 137 ,  Duree =     1.37 *  
+Noeud =  18 ,  Rank =  44 ,  Qty = 251 ,  Duree =    10.04 *  
+Noeud =  19 ,  Rank =  45 ,  Qty = 136 ,  Duree =     1.36 *  
+Noeud =  20 ,  Rank =  46 ,  Qty = 259 ,  Duree =     2.59 *  
+Noeud =  21 ,  Rank =  54 ,  Qty = 322 ,  Duree =     3.22 *  
+Noeud =  22 ,  Rank =  56 ,  Qty = 465 ,  Duree =     4.65 *  
+Noeud =  23 ,  Rank =  58 ,  Qty = 131 ,  Duree =     1.31 *  
+Noeud =  24 ,  Rank =  59 ,  Qty = 183 ,  Duree =     7.32 *  
+Noeud =  25 ,  Rank =  61 ,  Qty = 421 ,  Duree =     4.21 *  
+Noeud =  26 ,  Rank =  62 ,  Qty = 135 ,  Duree =     5.40 *  
+Noeud =  27 ,  Rank =  65 ,  Qty =  93 ,  Duree =     0.93 *  
+Noeud =  28 ,  Rank =  66 ,  Qty = 228 ,  Duree =     2.28 *  
+Noeud =  29 ,  Rank =  71 ,  Qty = 364 ,  Duree =     3.64 *  
+Noeud =  30 ,  Rank =  75 ,  Qty = 322 ,  Duree =     3.22 *  
+Noeud =  31 ,  Rank =  81 ,  Qty =  66 ,  Duree =     0.66 *  
+Noeud =  32 ,  Rank =  82 ,  Qty = 491 ,  Duree =     4.91 *  
+Noeud =  33 ,  Rank =  86 ,  Qty = 265 ,  Duree =     2.65 *  
+Noeud =  34 ,  Rank =  89 ,  Qty = 199 ,  Duree =     1.99 *  
+Noeud =  35 ,  Rank =  95 ,  Qty = 151 ,  Duree =     1.51 *  
+Noeud =  36 ,  Rank =  97 ,  Qty = 263 ,  Duree =     2.63 *  
+Noeud =  37 ,  Rank =  99 ,  Qty =  56 ,  Duree =     0.56 *  
+Noeud =  38 ,  Rank = 100 ,  Qty = 185 ,  Duree =     1.85 *  
+Noeud =  39 ,  Rank = 106 ,  Qty = 453 ,  Duree =     4.53 *  
+Noeud =  40 ,  Rank = 107 ,  Qty = 384 ,  Duree =     3.84 *  
+Noeud =  41 ,  Rank = 109 ,  Qty = 496 ,  Duree =     4.96 *  
+Noeud =  42 ,  Rank = 119 ,  Qty = 122 ,  Duree =     1.22 *  
+Noeud =  43 ,  Rank = 120 ,  Qty =  67 ,  Duree =     0.67 *  
+Noeud =  44 ,  Rank = 123 ,  Qty = 387 ,  Duree =    15.48 *  
+Noeud =  45 ,  Rank = 124 ,  Qty = 493 ,  Duree =     4.93 *  
+Noeud =  46 ,  Rank = 125 ,  Qty = 434 ,  Duree =     4.34 *  
+Noeud =  47 ,  Rank = 128 ,  Qty = 401 ,  Duree =     4.01 *  
+Noeud =  48 ,  Rank = 129 ,  Qty = 343 ,  Duree =     3.43 *  
+Noeud =  49 ,  Rank = 130 ,  Qty = 370 ,  Duree =     3.70 *  
+Noeud =  50 ,  Rank = 133 ,  Qty = 473 ,  Duree =     4.73 *  
+Noeud =  51 ,  Rank = 138 ,  Qty = 346 ,  Duree =     3.46 *  
+Noeud =  52 ,  Rank = 139 ,  Qty = 461 ,  Duree =     4.61 *  
+Noeud =  53 ,  Rank = 141 ,  Qty = 327 ,  Duree =     3.27 *  
+Noeud =  54 ,  Rank = 144 ,  Qty = 127 ,  Duree =     1.27 *  
+Noeud =  55 ,  Rank = 145 ,  Qty =  75 ,  Duree =     0.75 *  
+Noeud =  56 ,  Rank = 146 ,  Qty = 338 ,  Duree =     3.38 *  
+Noeud =  57 ,  Rank = 147 ,  Qty = 407 ,  Duree =     4.07 *  
+Noeud =  58 ,  Rank = 151 ,  Qty = 165 ,  Duree =     1.65 *  
+Noeud =  59 ,  Rank = 152 ,  Qty = 285 ,  Duree =     2.85 *  
+Noeud =  60 ,  Rank = 154 ,  Qty = 217 ,  Duree =     2.17 *  
+Noeud =  61 ,  Rank = 155 ,  Qty = 304 ,  Duree =     3.04 *  
+Noeud =  62 ,  Rank = 156 ,  Qty = 405 ,  Duree =     4.05 *  
+Noeud =  63 ,  Rank = 158 ,  Qty = 369 ,  Duree =     3.69 *  
+Noeud =  64 ,  Rank = 162 ,  Qty = 249 ,  Duree =     2.49 *  
+Noeud =  65 ,  Rank = 164 ,  Qty = 181 ,  Duree =     1.81 *  
+Noeud =  66 ,  Rank = 165 ,  Qty = 110 ,  Duree =     4.40 *  
+Noeud =  67 ,  Rank = 167 ,  Qty = 374 ,  Duree =     3.74 *  
+Noeud =  68 ,  Rank = 169 ,  Qty =  92 ,  Duree =     0.92 *  
+Noeud =  69 ,  Rank = 173 ,  Qty = 323 ,  Duree =     3.23 *  
+Noeud =  70 ,  Rank = 174 ,  Qty = 311 ,  Duree =     3.11 *  
+Noeud =  71 ,  Rank = 177 ,  Qty =  62 ,  Duree =     0.62 *  
+Noeud =  72 ,  Rank = 178 ,  Qty = 126 ,  Duree =     5.04 *  
+Noeud =  73 ,  Rank = 182 ,  Qty = 220 ,  Duree =     2.20 *  
+Noeud =  74 ,  Rank = 184 ,  Qty =  95 ,  Duree =     0.95 *  
+Noeud =  75 ,  Rank = 185 ,  Qty = 108 ,  Duree =     1.08 *  
+Noeud =  76 ,  Rank = 186 ,  Qty = 247 ,  Duree =     2.47 *  
+Noeud =  77 ,  Rank = 189 ,  Qty = 217 ,  Duree =     2.17 *  
+Noeud =  78 ,  Rank = 190 ,  Qty = 225 ,  Duree =     9.00 *  
+Noeud =  79 ,  Rank = 192 ,  Qty = 487 ,  Duree =     4.87 *  
+Noeud =  80 ,  Rank = 196 ,  Qty = 369 ,  Duree =     3.69 *  
+Noeud =  81 ,  Rank = 200 ,  Qty = 162 ,  Duree =     1.62 *  
+Noeud =  82 ,  Rank = 206 ,  Qty = 369 ,  Duree =     3.69 *  
+Noeud =  83 ,  Rank = 207 ,  Qty = 408 ,  Duree =     4.08 *  
+Noeud =  84 ,  Rank = 208 ,  Qty = 163 ,  Duree =     1.63 *  
+Noeud =  85 ,  Rank = 210 ,  Qty = 396 ,  Duree =     3.96 *  
+Noeud =  86 ,  Rank = 212 ,  Qty = 107 ,  Duree =     1.07 *  
+Noeud =  87 ,  Rank = 215 ,  Qty = 329 ,  Duree =    13.16 *  
+Noeud =  88 ,  Rank = 217 ,  Qty = 306 ,  Duree =     3.06 *  
+Noeud =  89 ,  Rank = 219 ,  Qty = 143 ,  Duree =     1.43 *  
+Noeud =  90 ,  Rank = 221 ,  Qty =  51 ,  Duree =     0.51 *  
+
+// Hubs parameters
+Hubs =   1 , Capacity = 2016 ,  Cost = 1994 , Rank = 72 * 
+Hubs =   2 , Capacity = 264 ,  Cost = 3213 , Rank = 70 * 
+Hubs =   3 , Capacity = 560 ,  Cost = 18920 , Rank = 13 * 
+Hubs =   4 , Capacity = 3220 ,  Cost = 2220 , Rank = 187 * 
+Hubs =   5 , Capacity = 1340 ,  Cost = 3682 , Rank = 157 * 
+Hubs =   6 , Capacity = 3987 ,  Cost = 1268 , Rank = 195 * 
+Hubs =   7 , Capacity = 2667 ,  Cost = 2291 , Rank = 68 * 
+Hubs =   8 , Capacity = 2282 ,  Cost = 4916 , Rank = 220 * 
+Hubs =   9 , Capacity = 3401 ,  Cost = 1677 , Rank = 28 * 
+Hubs =  10 , Capacity = 2279 ,  Cost = 3478 , Rank = 3 * 
+Hubs =  11 , Capacity = 3284 ,  Cost = 4115 , Rank = 214 * 
+Hubs =  12 , Capacity = 442 ,  Cost = 1265 , Rank = 191 * 
+Hubs =  13 , Capacity = 1296 ,  Cost = 752 , Rank = 63 * 
+Hubs =  14 , Capacity = 3473 ,  Cost = 2304 , Rank = 31 * 
+
+// Truck parameters
+Truck,  Capacity = 1526 ,  Range = 999999 , cost = 1016 * 
+
+END OF FILE

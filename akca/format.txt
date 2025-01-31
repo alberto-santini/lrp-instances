@@ -1,0 +1,33 @@
+#J #I Q g v
+LB UB ic
+1 x y d_1
+2 x y d_2
+·········
+·········
+#J x y d_#J
+#J+1 x y f_1 b_1 k_1
+#J+2 x y f_2 b_2 k_2
+·········
+·········
+#J+#I x y f_#I b_#I k_#J
+
+
+
+
+Where:
+----------------------------------------------------------------------------------
+#J = number of customers
+#I = number of potential facilities
+Q = vehicle capacity
+g = fixed cost per used vehicle
+v = variable cost by transported demand
+LB = Lower bound (0 if not available)
+UB = Upper bound (0 if not available)
+ic = 0 if costs are are calculated as euclidean distance, 1 if calculated as ceil(euclidean distance), 2 if calculated as round(euclidean distance)
+n = node number (1 <= n <= #J for customers, #J+1 <= n <= #J + #I for facilities)
+x = x-coordinate of node
+y = y-coordinate of node
+d_n = demand of customer n
+f_n = fixed cost of opening facility n - #J
+b_n = capacity of facility n - #J
+k_n = maximum number of vehicles assigned to facility n - #J. This value is actually not used anywhere.

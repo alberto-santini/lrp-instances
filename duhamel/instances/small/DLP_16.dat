@@ -1,0 +1,75 @@
+123456836
+Name         = DLP_16.dat
+LowerBound   = UnKnown
+BestKnown    = UnKnown
+Nodes        = 16
+Coords       = Yes
+Arcs         = 30
+Node-Task    = 5
+Nbdepot   =  2
+
+// List of nodes with coordinates
+Node =  1 , X =   0 , Y =   2 , SUCC = 3 * 
+Node =  2 , X = 205 , Y =  17 , SUCC = 1 , 5 * 
+Node =  3 , X =  -1 , Y = 204 , SUCC = 6 * 
+Node =  4 , X = 106 , Y = 213 , SUCC = 3 , 5 , 7 * 
+Node =  5 , X = 200 , Y = 200 , SUCC = 2 , 4 , 8 * 
+Node =  6 , X =  -3 , Y = 397 , SUCC = 7 * 
+Node =  7 , X =  89 , Y = 391 , SUCC = 4 , 6 , 8 * 
+Node =  8 , X = 200 , Y = 400 , SUCC = 10 * 
+Node =  9 , X =  -9 , Y = 496 , SUCC = 6 , 10 , 11 * 
+Node = 10 , X = 200 , Y = 498 , SUCC = 9 , 12 * 
+Node = 11 , X = -17 , Y = 608 , SUCC = 9 , 12 , 13 * 
+Node = 12 , X = 205 , Y = 605 , SUCC = 10 * 
+Node = 13 , X =   3 , Y = 704 , SUCC = 14 , 15 * 
+Node = 14 , X = 199 , Y = 698 , SUCC = 12 , 13 * 
+Node = 15 , X =   7 , Y = 807 , SUCC = 16 * 
+Node = 16 , X = 200 , Y = 797 , SUCC = 14 * 
+
+// List Of Arcs
+Arc =   1 ,  From =   1 ,  To =   3 ,  Longueur =   222.20 , Duree =    40.00 * 
+Arc =   2 ,  From =   2 ,  To =   1 ,  Longueur =   207.60 , Duree =    37.37 * 
+Arc =   3 ,  From =   2 ,  To =   5 ,  Longueur =   188.56 , Duree =    33.94 * 
+Arc =   4 ,  From =   3 ,  To =   6 ,  Longueur =   200.73 , Duree =    36.13 * 
+Arc =   5 ,  From =   4 ,  To =   3 ,  Longueur =   117.04 , Duree =    21.07 * 
+Arc =   6 ,  From =   4 ,  To =   5 ,  Longueur =    96.79 , Duree =    17.42 * 
+Arc =   7 ,  From =   4 ,  To =   7 ,  Longueur =   184.17 , Duree =    33.15 * 
+Arc =   8 ,  From =   5 ,  To =   2 ,  Longueur =   188.56 , Duree =    33.94 * 
+Arc =   9 ,  From =   5 ,  To =   4 ,  Longueur =    96.79 , Duree =    17.42 * 
+Arc =  10 ,  From =   5 ,  To =   8 ,  Longueur =   200.00 , Duree =    36.00 * 
+Arc =  11 ,  From =   6 ,  To =   7 ,  Longueur =   101.41 , Duree =    18.25 * 
+Arc =  12 ,  From =   7 ,  To =   4 ,  Longueur =   184.17 , Duree =    33.15 * 
+Arc =  13 ,  From =   7 ,  To =   6 ,  Longueur =   101.41 , Duree =    18.25 * 
+Arc =  14 ,  From =   7 ,  To =   8 ,  Longueur =   113.59 , Duree =    20.45 * 
+Arc =  15 ,  From =   8 ,  To =  10 ,  Longueur =    98.00 , Duree =    17.64 * 
+Arc =  16 ,  From =   9 ,  To =   6 ,  Longueur =   105.13 , Duree =    18.92 * 
+Arc =  17 ,  From =   9 ,  To =  10 ,  Longueur =   221.55 , Duree =    39.88 * 
+Arc =  18 ,  From =   9 ,  To =  11 ,  Longueur =   123.51 , Duree =    22.23 * 
+Arc =  19 ,  From =  10 ,  To =   9 ,  Longueur =   221.55 , Duree =    39.88 * 
+Arc =  20 ,  From =  10 ,  To =  12 ,  Longueur =   116.76 , Duree =    21.02 * 
+Arc =  21 ,  From =  11 ,  To =   9 ,  Longueur =   123.51 , Duree =    22.23 * 
+Arc =  22 ,  From =  11 ,  To =  12 ,  Longueur =   222.02 , Duree =    39.96 * 
+Arc =  23 ,  From =  11 ,  To =  13 ,  Longueur =   100.02 , Duree =    18.00 * 
+Arc =  24 ,  From =  12 ,  To =  10 ,  Longueur =   116.76 , Duree =    21.02 * 
+Arc =  25 ,  From =  13 ,  To =  14 ,  Longueur =   211.78 , Duree =    38.12 * 
+Arc =  26 ,  From =  13 ,  To =  15 ,  Longueur =   113.39 , Duree =    20.41 * 
+Arc =  27 ,  From =  14 ,  To =  12 ,  Longueur =    94.13 , Duree =    16.94 * 
+Arc =  28 ,  From =  14 ,  To =  13 ,  Longueur =   211.78 , Duree =    38.12 * 
+Arc =  29 ,  From =  15 ,  To =  16 ,  Longueur =   200.99 , Duree =    36.18 * 
+Arc =  30 ,  From =  16 ,  To =  14 ,  Longueur =   102.97 , Duree =    18.53 * 
+
+// List Of Task Nodes
+Noeud =   1 ,  Rank =   6 ,  Qty = 173 ,  Duree =     1.73 *  
+Noeud =   2 ,  Rank =   9 ,  Qty = 146 ,  Duree =     5.84 *  
+Noeud =   3 ,  Rank =  13 ,  Qty = 100 ,  Duree =     1.00 *  
+Noeud =   4 ,  Rank =  15 ,  Qty = 343 ,  Duree =     3.43 *  
+Noeud =   5 ,  Rank =  16 ,  Qty = 486 ,  Duree =     4.86 *  
+
+// Hubs parameters
+Hubs =   1 , Capacity = 2146 ,  Cost = 14464 , Rank = 5 * 
+Hubs =   2 , Capacity = 4927 ,  Cost = 4859 , Rank = 3 * 
+
+// Truck parameters
+Truck,  Capacity = 1846 ,  Range = 999999 , cost = 988 * 
+
+END OF FILE

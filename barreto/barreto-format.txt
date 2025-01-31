@@ -1,0 +1,7 @@
+FILES FORMAT (the same that used by Perl83).
+
+Customer Files: Customer Number, X-coordinate, Y-coordinate, Demand
+
+Depot Files: Depot Number, X-coordinate, Y-coordinate, Capacity, Fixed Cost, Variable Cost.
+
+Pearl, Jossef, 1983. A unified warehouse location-routing analysis. Ph. D. Dissertetion. Northwestern University, Evanston, Illinois, U SA.

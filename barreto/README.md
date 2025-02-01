@@ -11,6 +11,12 @@
 | **Instances Available** | ✅ [instances-prodhon-format/](instances-prodhon-format/) (Prodhon's version), [instances-barreto-format/](instances-barreto-format/) (Barreto's version) |
 | **Format File Available** | ✅ [prodhon-format.txt](prodhon-format.txt) (Prodhon's version), [barreto-format.txt](barreto-format.txt) (Barreto's version) |
 
+## Notes
+
+Originally, the Barreto set contained 18 instances.
+Of these, only 13 are typically used in the literature to perform computational experiments.
+Prodhon et al. have shared these 13 instances, and they have converted them in the same format as the [prins](../prins/) and [tuzun](../tuzun/) instances.
+
 ## Original paper citation
 
 These instances were first introduced in the following paper.

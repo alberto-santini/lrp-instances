@@ -23,7 +23,9 @@ It accompanies a two-parts survey that can be cited as follows:
   * [Akca](akca/)
   * [Barreto](barreto/)
   * [Duhamel](duhamel/)
+  * [Harks](harks/) (unavailable)
   * [Prins](prins/)
+  * [Schneider](schneider/)
   * [Tuzun](tuzun/)
 
 ## Naming Convention

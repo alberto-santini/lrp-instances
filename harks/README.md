@@ -22,13 +22,13 @@ These instances were first introduced in the following paper.
 
 ```bib
 @article{Harks,
-	title={Approximation algorithms for capacitated location routing},
-	author={Harks, Tobias and K{\"o}nig, Felix G and Matuschke, Jannik},
-	journal={Transportation Science},
-	volume=47,
-	number=1,
-	pages={3--22},
-	year=2013,
+  title={Approximation algorithms for capacitated location routing},
+  author={Harks, Tobias and K{\"o}nig, Felix G and Matuschke, Jannik},
+  journal={Transportation Science},
+  volume=47,
+  number=1,
+  pages={3--22},
+  year=2013,
   doi={10.1287/trsc.1120.0423}
 }
 ```

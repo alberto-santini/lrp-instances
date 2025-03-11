@@ -20,11 +20,11 @@ These instances were first introduced in the following paper.
   title = {Large Composite Neighborhoods for the Capacitated Location-Routing Problem},
   author = {Michael Schneider and Maximilian L{\"o}ffler},
   journal = {Transportation Science},
-	year = 2019,
-	volume = 53,
-	number = 1,
-	pages = {301--318},
-	doi = {10.1287/trsc.2017.0770}
+  year = 2019,
+  volume = 53,
+  number = 1,
+  pages = {301--318},
+  doi = {10.1287/trsc.2017.0770}
 }
 ```
 

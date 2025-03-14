@@ -3,7 +3,7 @@
 | Property    | Value |
 | ----------- | ----- |
 | **Problem** | 2-Echelon LRP |
-| **Year**    | 2006 |
+| **Year**    | 2012 |
 | **Source**  | [Prodhon's website](http://prodhonc.free.fr/Instances/instancesLRP2E_us.htm) ([archived](https://web.archive.org/web/20250314132052/http://prodhonc.free.fr/Instances/instancesLRP2E_us.htm)) |
 | **Number of instances** | 30 |
 | **Number of depots** | 1 |

@@ -5,13 +5,13 @@ It accompanies a two-parts survey that can be cited as follows:
 
 ```bib
 @misc{LRP_Survey_Part_One,
-  title={A Guide to Recent Developments in Location-Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems},
+  title={Recent Developments in Location-Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems},
   author={Cavagnini, Rossana and Santini, Alberto and Schneider, Michael},
   year=2025
 }
 
 @misc{LRP_Survey_Part_One,
-  title={A Guide to Recent Developments in Location-Routing Problems --- Multi-echelon and multi-period problems},
+  title={Recent Developments in Location-Routing Problems --- Multi-echelon and multi-period problems},
   author={Cavagnini, Rossana and Murwan, Sidding and Santini, Alberto and Schneider, Michael},
   year=2025
 }

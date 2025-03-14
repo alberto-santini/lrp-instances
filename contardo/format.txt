@@ -1,0 +1,19 @@
+#C	#S	#P	Q2	Q1	CPV2	CPV1	VC
+LB	UB	CN	CF
+First #C lines are for customers, indicating: Node no, X coord, Y coord, Demand
+Lines #C + 1 until #C + #S are for satellites, indicating: Node no. X coord, Y coord, Fixed Cost, Capacity
+Lines #C + #S + 1 until #C + #S + #P are for platforms, indicating: Node no. X coord, Y coord, Fixed Cost, Capacity
+-------------------------------------------------------------------------------------
+Legend:
+#C: number of customers
+#S: number of satellites
+#P: number of platforms
+Q2: vehicle capacity at second echelon
+Q1: vehicle capacity at first echelon
+CPV2: Fixed cost per vehicle at second echelon
+CPV1: Fixed cost per vehicle at first echelon
+VC: variable cost per unit of served demand
+LB: lower bound of the problem instance
+UB: upper bound of the problem instance
+CN: costs nature, computed as follows: 0 = euclidean distance, 1 = ceil(euclidean distance), 2 = round(euclidean distance)
+CF: traveling cost factor. Traveling costs at first echelon are computed as CF * cost (the cost being computed according to the corresponding cost nature).

@@ -28,6 +28,7 @@ It accompanies a two-parts survey that can be cited as follows:
   * [Schneider](schneider/)
   * [Tuzun](tuzun/)
 * 2-Echelon Location Routing Problem. Instance sets:
+  * [Contardo](contardo/) (aka Sterle)
   * [Nguyen](nguyen/)
   * [Prins](prins-2e/) (aka Prodhon)
 

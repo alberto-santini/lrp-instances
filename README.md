@@ -27,6 +27,8 @@ It accompanies a two-parts survey that can be cited as follows:
   * [Prins](prins/)
   * [Schneider](schneider/)
   * [Tuzun](tuzun/)
+* 2-Echelon Location Routing Problem. Instance sets:
+  * [Prins](prins/)
 
 ## Naming Convention
 

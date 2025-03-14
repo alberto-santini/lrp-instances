@@ -1,0 +1,54 @@
+﻿Instances for The Two-Echelon Location-Routing Problem (LRP-2E)
+
+Two sets of LRP-2E Euclidean instances have been proposed by Viet-Phuong NGUYEN, Christian PRINS and Caroline PRODHON.
+
+The first set (Prodhon’s LRP-2E instances) contains 30 LRP-2E instances, derived from Prodhon’s CLRP instances by converting the depots into satellites, adding one main depot at the origin (0,0) and one ﬂeet of 1st level vehicles. These instances are grouped in four subsets with the following features: number of customers n ∈ {20,50,100,200}, uniform integer demands in [11,20], number of satellites m ∈ {5,10}, number of clusters β = {1,2,3} (β = 1 means a uniform distribution of customers) and vehicle capacity of second level Q2, vehicle capacity of first level Q1. The costs cij correspond to the Euclidean distances, multiplied by 100 and rounded up to the nearest integer. The cost cij of ﬁrst-level edges are calculated as for the second level but multiplied by 2. The ﬁles names have the format n − m − β, with a suﬃx “b” for Q = 150. 
+
+This second set (Nguyen’s LRP-2E instances) contains 24 LRP-2E instances with capacitated routes and satellites. Its main features are: number of customers n ∈ {50,100,200}, number of satellites m ∈ {5,10}, ﬁrst-level vehicle capacity Q1 ∈ {750,850}, second-level vehicle capacity Q2 ∈ {100, 150}. The demands follow a normal distribution with mean µ = 15 and variance σ2 = 25. Customer locations follow either a normal distribution (N in the ﬁle name) or a multi-normal distribution (MN). The costs cij are the Euclidean distances, still rounded up to the closest integer. They are doubled for the ﬁrst level. The ﬁles names have the format n−m−{N,MN}.
+
+The structure of the Prodhon’s LRP-2E instance files is as follows:
+
+Number of customers (n) 
+Number of potential sites of satellite depots (m)
+
+Coordinates (x and y) for the main depot (1) and satellite depots (m)
+
+Coordinates (x and y) for the customers (n)
+
+Vehicle capacity for the second level (Q2)
+Vehicle capacity for the first level (Q1)
+
+Satellite capacities i (Wi)
+
+Customers demands j (dj)
+
+Opening costs for the satellites i (Oi)
+
+Fixed cost of a vehicle in the second level (F1)
+Fixed cost of a vehicle in the second level (F1)
+
+
+The structure of the Nguyen’s LRP-2E instance files is as follows:
+
+Number of satellite depots (m) + Number of customers (n) 
+
+Vehicle capacity for the first level (Q1) + for the second level (Q2)
+
+Fixed cost of a vehicle in the first level (F1) + the second level (F2)
+
+Coordinates (x and y) for the main depot
+
+Coordinates (x and y)+ Satellite capacities (Wi) + Opening costs (Oi) for the satellites i
+
+Coordinates (x and y) + Demand for the customers (n)
+
+
+To calculate the matrix distance (or the cost to link any 2 points A and B in the graph), we use the mathematical formula:
+
+If code = 0 (Prodhon’s LRP-2E instance):
+    • For the first level: cAB = ceil (sqrt( (xA-xB)² + (yA-yB)² )*100)
+    • For the second level: cAB = ceil (sqrt( (xA-xB)² + (yA-yB)² )*100*2)
+
+If code = 1 (Nguyen’s LRP-2E instance):
+    • For the first level: cAB = ceil (sqrt( (xA-xB)² + (yA-yB)² )*10)
+    • For the second level: cAB = ceil (sqrt( (xA-xB)² + (yA-yB)² )*10*2)

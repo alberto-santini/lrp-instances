@@ -2,7 +2,7 @@
 
 | Property    | Value |
 | ----------- | ----- |
-| **Problem** | Standard LRP, 2-Echelon LRP |
+| **Problem** | Standard LRP |
 | **Year**    | 2006 |
 | **Source**  | [Prodhon's website](http://prodhonc.free.fr/Instances/instances_us.htm) ([archived](https://web.archive.org/web/20250131140029/http://prodhonc.free.fr/Instances/instances_us.htm)) |
 | **Number of instances** | 30 |
@@ -10,11 +10,6 @@
 | **Number of customers** | 20-200 |
 | **Instances Available** | ✅ [instances/](instances/) |
 | **Format File Available** | ✅ [format.txt](format.txt) |
-
-## Notes
-
-These instances were originally proposed for the Standard Location Routing Problem.
-However, they have been used in the literature (see, e.g., [this paper](https://doi.org/10.1016/j.cie.2021.107609)) as 2-Echelon Location Routing Problem instances by adding a single depot at coordinates `(0,0)`.
 
 ## Original paper citation
 

@@ -24,12 +24,12 @@ It accompanies a two-parts survey that can be cited as follows:
   * [Barreto](barreto/)
   * [Duhamel](duhamel/)
   * [Harks](harks/) (unavailable)
-  * [Prins](prins/)
+  * [Prins](prins/) (aka Prodhon)
   * [Schneider](schneider/)
   * [Tuzun](tuzun/)
 * 2-Echelon Location Routing Problem. Instance sets:
   * [Nguyen](nguyen/)
-  * [Prins](prins-2e/)
+  * [Prins](prins-2e/) (aka Prodhon)
 
 ## Naming Convention
 

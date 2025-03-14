@@ -11,6 +11,10 @@
 | **Instances Available** | ✅ [instances/](instances/) |
 | **Format File Available** | ✅ [format.txt](format.txt) |
 
+## Notes
+
+These instance set is also known as "Prodhon" in the literature.
+
 ## Original paper citation
 
 These instances were first introduced in the following paper.

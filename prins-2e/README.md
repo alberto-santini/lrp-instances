@@ -17,6 +17,8 @@
 These instances are derived from the [Prins](../prins/) instances for the Standard Location Routing Problem.
 They are adapted as 2-Echelon Location Routing Problem instances by adding a single depot at coordinates `(0,0)`.
 
+These instance set is also known as "Prodhon" in the literature.
+
 ## Original paper citation
 
 These instances were first introduced in the following paper.

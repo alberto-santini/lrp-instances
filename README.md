@@ -31,6 +31,8 @@ It accompanies a two-parts survey that can be cited as follows:
   * [Contardo](contardo/) (aka Sterle)
   * [Nguyen](nguyen/)
   * [Prins](prins-2e/) (aka Prodhon)
+* Periodic Location Routing Problem. Instance sets:
+  * [Prodhon](prodhon/)
 
 ## Naming Convention
 

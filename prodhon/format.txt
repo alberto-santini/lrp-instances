@@ -1,0 +1,54 @@
+The structure of the PLRP files is as follows:
+
+
+number of customers
+number of available depots
+number of serviced days		number of periods on the horizon
+
+coordinates for the customers (x and y)	total demand over the horizon	visit frequency
+
+coordinates for the depots 	capacity of the depot	setup cost of the depot
+
+vehicle capacity	setup cost	number of available vehicles
+
+
+0 or 1 (0 means that the costs are integer - 1 that costs are real)
+
+number of possible frequency 	total number of possible combinations
+
+for each frequency:
+frequency 	total number of possible combinations for the frequency
+list of the combinations
+
+********************************
+
+To calculate the matrix distance (or the cost to link any 2 points A and B in the graph), we use the mathematical formula:
+
+sqrt( (xA-xB)^2 + (yA-yB)^2 )
+
+The results are stored in a float variable (in C language) if the costs are real (code 1)
+The result is multiplied by 100 and truncked to be stored in an integer variable if the costs are interger (code 0).
+
+********************************
+
+To calculate the demand for customer c on each day of combination r (if the frequency is not equal to 1):
+
+let Dc = total demand of customer c over the horizon
+let d(c,jr,r) = demand of customer c on day jr of combination r
+
+Thus:
+
+PeriodDem = Dc /(number of periods on the horizon);
+DemTot = 0 ;
+jr1 = last day of the combination r;
+do
+{
+	jr = day before jr1 in the combination r
+	d(c,jr1,r) = PeriodDem * (jr1-jr);
+	if(d(c,jr1,r) = 0) d(c,jr1,r)=1;
+	DemTot= DemTot + d(c,jr1,r);
+	jr1 = jr
+}until(jr = first day of the combination r)
+
+d(c,jr,r) = Dc - DemTot;
+

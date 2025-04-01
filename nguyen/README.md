@@ -35,7 +35,7 @@ If you use the instances from this repository, please cite the following paper.
 
 ```bib
 @misc{LRP_Survey_Part_Two,
-  title={Recent Developments in Location-Routing Problems --- Multi-echelon and multi-period problems},
+  title={Recent Developments in Location Routing Problems --- Multi-echelon and multi-period problems},
   author={Cavagnini, Rossana and Santini, Alberto and Schneider, Michael and Siddig, Murwan},
   year=2025
 }

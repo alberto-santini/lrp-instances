@@ -34,7 +34,7 @@ If you use the instances from this repository, please cite the following paper.
 
 ```bib
 @misc{LRP_Survey_Part_One,
-  title={Recent Developments in Location-Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems},
+  title={Recent Developments in Location Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems},
   author={Cavagnini, Rossana and Santini, Alberto and Schneider, Michael},
   year=2025
 }

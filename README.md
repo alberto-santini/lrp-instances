@@ -10,7 +10,7 @@ It accompanies a two-parts survey that can be cited as follows:
   year=2025
 }
 
-@misc{LRP_Survey_Part_One,
+@misc{LRP_Survey_Part_Two,
   title={Recent Developments in Location Routing Problems --- Multi-echelon and multi-period problems},
   author={Cavagnini, Rossana and Murwan, Sidding and Santini, Alberto and Schneider, Michael},
   year=2025

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Cavagnini"
+  given-names: "Rosanna"
+- family-names: "Santini"
+  given-names: "Alberto"
+- family-names: "Schneider"
+  given-names: "Michael"
+title: " Location Routing Problem Instances "
+version: 0.3
+doi: "10.5281/zenodo.15089883"
+date-released: 2025-03-26
+url: "https://github.com/alberto-santini/lrp-instances"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Cavagnini"
+    given-names: "Rosanna"
+  - family-names: "Santini"
+    given-names: "Alberto"
+  - family-names: "Schneider"
+    given-names: "Michael"
+  doi: "10.1016/j.ejor.2025.09.040"
+  journal: "European Journal of Operational Research"
+  title: "Recent Developments in Location Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems"
+  year: 2025

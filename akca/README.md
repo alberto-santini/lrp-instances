@@ -38,9 +38,11 @@ These instances were first introduced in the following paper.
 If you use the instances from this repository, please cite the following paper.
 
 ```bib
-@misc{LRP_Survey_Part_One,
+@article{LRP_Survey_Part_One,
   title={Recent Developments in Location Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems},
   author={Cavagnini, Rossana and Santini, Alberto and Schneider, Michael},
+  journal={European Journal of Operational Research},
+  doi={10.1016/j.ejor.2025.09.040},
   year=2025
 }
 ```

@@ -9,13 +9,17 @@ It accompanies a two-parts survey that can be cited as follows:
   author={Cavagnini, Rossana and Santini, Alberto and Schneider, Michael},
   journal={European Journal of Operational Research},
   doi={10.1016/j.ejor.2025.09.040},
-  year=2025
+  volume=332,
+  issue=3,
+  pages={711--729},
+  year=2026
 }
 
 @misc{LRP_Survey_Part_Two,
   title={Recent Developments in Location Routing Problems --- Multi-echelon and multi-period problems},
   author={Cavagnini, Rossana and Murwan, Sidding and Santini, Alberto and Schneider, Michael},
-  year=2025
+  journal={European Journal of Operational Research},
+  year=2026
 }
 ```
 

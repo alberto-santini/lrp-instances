@@ -31,14 +31,28 @@ These instances were first introduced in the following paper.
 
 ## Survey citation
 
-If you use the instances from this repository, please cite the following paper.
+If you use the instances from this repository, please cite the following papers.
 
 ```bib
 @article{LRP_Survey_Part_One,
-  title={Recent Developments in Location Routing Problems --- Deterministic, single-echelon, single-objective, single-period problems},
+  title={Recent developments in location-routing problems: Deterministic single-echelon, single-objective, single-period problems},
   author={Cavagnini, Rossana and Santini, Alberto and Schneider, Michael},
   journal={European Journal of Operational Research},
+  volume=332,
+  issue=3,
+  pages={711--729},
   doi={10.1016/j.ejor.2025.09.040},
-  year=2025
+  year=2026
+}
+
+@article{LRP_Survey_Part_Two,
+  title={Recent developments in location-routing problems: Deterministic multi-period, multi-echelon, and multi-objective problems},
+  author={Cavagnini, Rossana and Murwan, Sidding and Santini, Alberto and Schneider, Michael},
+  journal={European Journal of Operational Research},
+  volume=334,
+  issue=5,
+  pages={705--719},
+  doi={10.1016/j.ejor.2026.04.001},
+  year=2026
 }
 ```

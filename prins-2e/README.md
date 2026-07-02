@@ -17,7 +17,10 @@
 These instances are derived from the [Prins](../prins/) instances for the Standard Location Routing Problem.
 They are adapted as 2-Echelon Location Routing Problem instances by adding a single depot at coordinates `(0,0)`.
 
-These instance set is also known as "Prodhon" in the literature.
+This instance set is also known as "Prodhon" in the literature.
+
+**Remark:** first-echelon unit costs are double compared to the second-echelon routing costs for the same distance.
+This and other important facts are explained in `format.txt`, so please read this file carefully.
 
 ## Original paper citation
 
